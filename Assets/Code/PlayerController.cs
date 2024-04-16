@@ -26,9 +26,6 @@ public class PlayerController : MonoBehaviour
 
     public float gravity = -9.8f; //m/s/s
 
-    
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -67,8 +64,6 @@ public class PlayerController : MonoBehaviour
 
         transform.Rotate(0, lookInput.x, 0);
 
-     
     }
 
-   
- }
+}
