@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         //holen einen Vector2 aus dem look
         Vector2 lookInput = look.ReadValue<Vector2>();
         Vector3 cameraRotation = Camera.rotation.eulerAngles;
-        cameraXRotation += lookInput.y;
+        cameraXRotation -= lookInput.y;
 
         cameraXRotation = Mathf.Clamp(cameraXRotation, 0, 90);
 
