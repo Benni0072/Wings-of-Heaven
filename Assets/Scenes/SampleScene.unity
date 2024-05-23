@@ -277,6 +277,73 @@ Transform:
   - {fileID: 1451870694}
   m_Father: {fileID: 1553236319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &61313544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61313547}
+  - component: {fileID: 61313545}
+  - component: {fileID: 61313546}
+  m_Layer: 0
+  m_Name: 'old story '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &61313545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61313544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Oh yeah, the old stories you told me when I was a little kid.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 61313546}
+--- !u!114 &61313546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61313544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1892360235}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &61313547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61313544}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 272547801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &103106360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1337,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120766635}
   m_LocalEulerAnglesHint: {x: 0, y: -36.246, z: 0}
+--- !u!1 &272547800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272547801}
+  m_Layer: 0
+  m_Name: "\xDCber denn Garten"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272547801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272547800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1729746262}
+  - {fileID: 1477524366}
+  - {fileID: 1035240349}
+  - {fileID: 1878070510}
+  - {fileID: 61313547}
+  - {fileID: 1892360233}
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &313728106
 Mesh:
   m_ObjectHideFlags: 0
@@ -1435,6 +1539,73 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &363473437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363473438}
+  - component: {fileID: 363473440}
+  - component: {fileID: 363473439}
+  m_Layer: 0
+  m_Name: old Bones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &363473438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363473437}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &363473439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363473437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1473601986}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &363473440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363473437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: My old Bones are not doing very well today, maby a storm is comming.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 363473439}
 --- !u!1 &386071716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,6 +2375,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120766635}
   m_LocalEulerAnglesHint: {x: 0, y: -36.246, z: 0}
+--- !u!1 &441574027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441574028}
+  - component: {fileID: 441574030}
+  - component: {fileID: 441574029}
+  m_Layer: 0
+  m_Name: water the garden
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441574028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441574027}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &441574029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441574027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 453699055}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &441574030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441574027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: There is only one problem, I won't be able to water my garden like this.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 441574029}
 --- !u!1 &443854074
 GameObject:
   m_ObjectHideFlags: 0
@@ -4621,6 +4859,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120766635}
   m_LocalEulerAnglesHint: {x: -88.83, y: 57.937, z: -19.772}
+--- !u!1 &453699052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453699053}
+  - component: {fileID: 453699055}
+  - component: {fileID: 453699054}
+  m_Layer: 0
+  m_Name: important to me
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453699053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453699052}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453699054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453699052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1315059254}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &453699055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453699052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: You know that it is very important to me.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 453699054}
 --- !u!1 &460276021
 GameObject:
   m_ObjectHideFlags: 0
@@ -5677,6 +5982,7 @@ RectTransform:
   m_Children:
   - {fileID: 1245898152}
   - {fileID: 1168313619}
+  - {fileID: 1543653669}
   - {fileID: 1582202440}
   - {fileID: 2067045114}
   m_Father: {fileID: 16983239}
@@ -5686,6 +5992,73 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &788503810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 788503813}
+  - component: {fileID: 788503811}
+  - component: {fileID: 788503812}
+  m_Layer: 0
+  m_Name: Ask for favor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &788503811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788503810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Can I ask you for a favor, Coco?
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 788503812}
+--- !u!114 &788503812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788503810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: yes
+  NextDialog: {fileID: 0}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &788503813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788503810}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &791695452
 Mesh:
   m_ObjectHideFlags: 0
@@ -5918,6 +6291,73 @@ MonoBehaviour:
   image_2: {fileID: 544334174}
   Options:
   - {fileID: 801654741}
+--- !u!1 &817184868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817184871}
+  - component: {fileID: 817184869}
+  - component: {fileID: 817184870}
+  m_Layer: 0
+  m_Name: how have you been
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &817184869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817184868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Hello Grandpa Gicht, how have you been?
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 817184870}
+--- !u!114 &817184870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817184868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 363473440}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &817184871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817184868}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &821598804
 GameObject:
   m_ObjectHideFlags: 0
@@ -10194,6 +10634,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120766635}
   m_LocalEulerAnglesHint: {x: -0.775, y: 12.454, z: -0.835}
+--- !u!1 &1035240346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035240349}
+  - component: {fileID: 1035240347}
+  - component: {fileID: 1035240348}
+  m_Layer: 0
+  m_Name: coverd in Sand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1035240347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035240346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Before that, everything here was covered in sand.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1035240348}
+--- !u!114 &1035240348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035240346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1878070508}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1035240349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035240346}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 272547801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1046215338
 GameObject:
   m_ObjectHideFlags: 0
@@ -10656,6 +11163,48 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 760687037}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1171947517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171947518}
+  m_Layer: 0
+  m_Name: Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171947518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171947517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1543307447}
+  - {fileID: 817184871}
+  - {fileID: 363473438}
+  - {fileID: 1473601984}
+  - {fileID: 441574028}
+  - {fileID: 453699053}
+  - {fileID: 1315059252}
+  - {fileID: 1701352887}
+  - {fileID: 2040976104}
+  - {fileID: 272547801}
+  - {fileID: 788503813}
+  m_Father: {fileID: 1364794786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1216030876
 GameObject:
@@ -15683,6 +16232,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120766635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1315059251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1315059252}
+  - component: {fileID: 1315059254}
+  - component: {fileID: 1315059253}
+  m_Layer: 0
+  m_Name: nothing is more important
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1315059252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315059251}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1315059253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315059251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1701352885}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1315059254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315059251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Yes, nothing is dearer to you than your garden.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1315059253}
 --- !u!43 &1350844873
 Mesh:
   m_ObjectHideFlags: 0
@@ -15976,7 +16592,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1543307447}
+  - {fileID: 1171947518}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1364794787
@@ -18698,6 +19314,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1473601983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1473601984}
+  - component: {fileID: 1473601986}
+  - component: {fileID: 1473601985}
+  m_Layer: 0
+  m_Name: never disappointed us
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1473601984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473601983}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1473601985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473601983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 441574030}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1473601986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473601983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Your old bones have never disappointed us.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1473601985}
+--- !u!1 &1477524363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1477524366}
+  - component: {fileID: 1477524364}
+  - component: {fileID: 1477524365}
+  m_Layer: 0
+  m_Name: dragons gift
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1477524364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477524363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: As you know, the dragons gifted us fertile land several hundred years ago.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1477524365}
+--- !u!114 &1477524365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477524363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1035240347}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1477524366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477524363}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 272547801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1514275803
 GameObject:
   m_ObjectHideFlags: 0
@@ -18877,7 +19627,7 @@ GameObject:
   - component: {fileID: 1543307449}
   - component: {fileID: 1543307448}
   m_Layer: 0
-  m_Name: Dialog
+  m_Name: 'Hello '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18891,12 +19641,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543307446}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1364794786}
+  m_Father: {fileID: 1171947518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1543307448
 MonoBehaviour:
@@ -18911,7 +19661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: Hello Grandpa Gicht
-  NextDialog: {fileID: 0}
+  NextDialog: {fileID: 817184869}
   OnOptionSelected:
     m_PersistentCalls:
       m_Calls: []
@@ -18963,12 +19713,12 @@ RectTransform:
   m_Children:
   - {fileID: 103106361}
   - {fileID: 562310886}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 760687037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 960, y: 540}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1543653670
 CanvasRenderer:
@@ -19954,6 +20704,73 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 381efdc732b87a04dbb83cc165ec58ca, type: 3}
+--- !u!1 &1701352884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1701352887}
+  - component: {fileID: 1701352885}
+  - component: {fileID: 1701352886}
+  m_Layer: 0
+  m_Name: After me
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1701352885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701352884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Of course after me.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1701352886}
+--- !u!114 &1701352886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701352884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 2040976102}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1701352887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701352884}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1717826240
 GameObject:
   m_ObjectHideFlags: 0
@@ -24152,6 +24969,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -17.842, z: 0}
+--- !u!1 &1729746259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729746262}
+  - component: {fileID: 1729746260}
+  - component: {fileID: 1729746261}
+  m_Layer: 0
+  m_Name: vegetables in garden
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1729746260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729746259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: What exactly are you doing again with the vegetables from your garden?
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1729746261}
+--- !u!114 &1729746261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729746259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 1477524364}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1729746262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729746259}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 272547801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1768341141
 GameObject:
   m_ObjectHideFlags: 0
@@ -24743,6 +25627,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1878070507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878070510}
+  - component: {fileID: 1878070508}
+  - component: {fileID: 1878070509}
+  m_Layer: 0
+  m_Name: tribute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1878070508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878070507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: For several years now, I've been offering my vegetables as a tribute to the
+    dragons in gratitude.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1878070509}
+--- !u!114 &1878070509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878070507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 61313545}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1878070510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878070507}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 272547801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1882702794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24811,6 +25763,73 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6343be098114d664583f854db475d48b, type: 3}
+--- !u!1 &1892360232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1892360233}
+  - component: {fileID: 1892360235}
+  - component: {fileID: 1892360234}
+  m_Layer: 0
+  m_Name: Ask for favor (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1892360233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892360232}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 272547801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892360234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892360232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: yes
+  NextDialog: {fileID: 0}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1892360235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892360232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Can I ask you for a favor, Coco?
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 1892360234}
 --- !u!1 &1908318225
 GameObject:
   m_ObjectHideFlags: 0
@@ -25624,6 +26643,92 @@ MonoBehaviour:
   image_2: {fileID: 544334174}
   Options:
   - {fileID: 1999835327}
+--- !u!1 &2040976101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040976104}
+  - component: {fileID: 2040976102}
+  - component: {fileID: 2040976103}
+  - component: {fileID: 2040976105}
+  m_Layer: 0
+  m_Name: Of course
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2040976102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040976101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Of course, my dear.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 2040976103}
+  - {fileID: 2040976105}
+--- !u!114 &2040976103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040976101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: learn more about Grandpa Gicht
+  NextDialog: {fileID: 1729746260}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &2040976104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040976101}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171947518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040976105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040976101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: continue
+  NextDialog: {fileID: 788503811}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2042274979
 GameObject:
   m_ObjectHideFlags: 0
@@ -26219,7 +27324,6 @@ SceneRoots:
   - {fileID: 120766635}
   - {fileID: 1364794786}
   - {fileID: 2110262969}
-  - {fileID: 1543653669}
   - {fileID: 1953260357}
   - {fileID: 460276027}
   - {fileID: 824664365}
