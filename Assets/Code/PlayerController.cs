@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.8f; //m/s/s
 
     public interactable CurrentInteractable;
+    public collectible CurrentCollectible;
 
 
     // Start is called before the first frame update
@@ -91,6 +92,9 @@ public class PlayerController : MonoBehaviour
         if (interact.WasPressedThisFrame() && CurrentInteractable != null)
             CurrentInteractable.Interact();
 
+        if (interact.WasPressedThisFrame() && CurrentCollectible != null)
+            CurrentCollectible.Collect();
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -106,6 +110,16 @@ public class PlayerController : MonoBehaviour
         collectible collectable = other.GetComponent<collectible>();
         if (collectable != null)
             collectable.Collect();
+
+        collectible collectible = other.GetComponent<collectible>();
+        if (collectable!= null)
+        {
+            if (CurrentCollectible != null)
+                CurrentCollectible.Unhighlight();
+
+            CurrentCollectible = collectable;
+            CurrentCollectible.Highlight();
+        }
 
         //interactable gedönsS
         interactable inter = other.GetComponent<interactable>();
