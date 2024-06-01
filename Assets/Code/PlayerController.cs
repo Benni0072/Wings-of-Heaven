@@ -108,8 +108,8 @@ public class PlayerController : MonoBehaviour
 
         //option 2: component
         collectible collectable = other.GetComponent<collectible>();
-        if (collectable != null)
-            collectable.Collect();
+       // if (collectable != null)
+         //   collectable.Collect();
 
         collectible collectible = other.GetComponent<collectible>();
         if (collectable!= null)
