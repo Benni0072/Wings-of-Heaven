@@ -107,11 +107,11 @@ public class PlayerController : MonoBehaviour
         //}
 
         //option 2: component
-        collectible collectable = other.GetComponent<collectible>();
+        //collectible collectable = other.GetComponent<collectible>();
        // if (collectable != null)
          //   collectable.Collect();
 
-        collectible collectible = other.GetComponent<collectible>();
+        collectible collectable = other.GetComponent<collectible>();
         if (collectable!= null)
         {
             if (CurrentCollectible != null)
@@ -141,6 +141,13 @@ public class PlayerController : MonoBehaviour
         {
             inter.Unhighlight();
             CurrentInteractable = null;
+        }
+
+        collectible collectable = other.GetComponent<collectible>();
+        if (collectable != null)
+        {
+            collectable.Unhighlight();
+            CurrentCollectible = null;
         }
     }
 }
