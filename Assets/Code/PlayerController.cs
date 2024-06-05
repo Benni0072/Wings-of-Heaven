@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public PlayerInput PlayerInput;
     public CharacterController Controller;
     public Transform Camera;
+    public Animator Animator;
 
     public float speed = 10f;
 
@@ -42,6 +43,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        Animator.SetFloat("speed", velocity.magnitude);
+
         Vector2 moveInput = move.ReadValue<Vector2>();
 
         Vector3 moveAmount = transform.forward * moveInput.y + transform.right * moveInput.x;
@@ -54,6 +58,7 @@ public class PlayerController : MonoBehaviour
 
         if (Controller.Move(velocity * speed * Time.deltaTime) == CollisionFlags.Below)
             velocity.y = 0;
+
 
         //holen einen Vector2 aus dem look
         Vector2 lookInput = look.ReadValue<Vector2>();
