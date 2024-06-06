@@ -155,4 +155,9 @@ public class PlayerController : MonoBehaviour
             CurrentCollectible = null;
         }
     }
+
+    public void DisableInput(bool disabled)
+    {
+        PlayerInput.enabled = !disabled; //invert bool
+    }
 }

@@ -1,7 +1,9 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogDisplay : MonoBehaviour
@@ -15,6 +17,17 @@ public class DialogDisplay : MonoBehaviour
     public TMP_Text TextBox;
 
     public List<GameObject> Buttons;
+
+    public UnityEvent<bool> DialogOpen;
+
+    //2. Möglichkeiten
+    //event path
+    //public string AtmoEventPath;
+    //event reference
+    //public EventReference AtmoEventReference;
+    //event Emitter
+    public StudioEventEmitter Emitter;
+    //________________________________________________________
 
 
     // Start is called before the first frame update
@@ -51,11 +64,14 @@ public class DialogDisplay : MonoBehaviour
         }
 
         currentItem = item;
+        DialogOpen.Invoke(true);
     }
 
     public void EndDialog()
     {
         Container.SetActive(false);
+
+        DialogOpen.Invoke(false);
     }
 
     public void ChooseOption(int index)
