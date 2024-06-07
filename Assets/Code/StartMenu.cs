@@ -21,7 +21,7 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        // musicInstance.setParameterByNameWithLabel("Scene", "Level");
+         musicInstance.setParameterByNameWithLabel("Scene", "Level");
 
         SceneManager.LoadScene(1);
     }
@@ -29,6 +29,12 @@ public class StartMenu : MonoBehaviour
     public void MuteAudio(bool muted)
     {
         RuntimeManager.MuteAllEvents(muted);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
     }
 
 
