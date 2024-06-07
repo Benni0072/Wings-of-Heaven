@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 24312551}
   - component: {fileID: 24312552}
   m_Layer: 0
-  m_Name: Dialog
+  m_Name: are you allright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: The creature in front of you stares at you
+  Text: Hey buddy are you allright?
   image: {fileID: 0}
   image_2: {fileID: 0}
   Options:
@@ -325,8 +325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: Hello my friend.
-  NextDialog: {fileID: 0}
+  Text: Continue
+  NextDialog: {fileID: 691304512}
   OnOptionSelected:
     m_PersistentCalls:
       m_Calls: []
@@ -629,8 +629,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 821598805}
   - {fileID: 2042274980}
+  - {fileID: 821598805}
   m_Father: {fileID: 1543653669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5927,6 +5927,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 24312553}
+  - {fileID: 691304514}
   - {fileID: 1932040872}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6782,7 +6783,7 @@ GameObject:
   - component: {fileID: 589650516}
   - component: {fileID: 589650515}
   m_Layer: 5
-  m_Name: auf
+  m_Name: Opa Gicht auf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6994,7 +6995,7 @@ GameObject:
   - component: {fileID: 632632302}
   - component: {fileID: 632632301}
   m_Layer: 5
-  m_Name: zu
+  m_Name: Opa Gicht zu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7327,6 +7328,85 @@ MonoBehaviour:
   OnOptionSelected:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &691304511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691304514}
+  - component: {fileID: 691304512}
+  - component: {fileID: 691304513}
+  m_Layer: 0
+  m_Name: stares at you
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &691304512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691304511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: The creature stares at you for a while.
+  image: {fileID: 0}
+  image_2: {fileID: 0}
+  Options:
+  - {fileID: 691304513}
+--- !u!114 &691304513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691304511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: Continue
+  NextDialog: {fileID: 0}
+  OnOptionSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &691304514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691304511}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 460276027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &704947565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8458,7 +8538,7 @@ GameObject:
   - component: {fileID: 821598807}
   - component: {fileID: 821598806}
   m_Layer: 5
-  m_Name: zu
+  m_Name: Coco zu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28559,8 +28639,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 632632300}
   - {fileID: 589650514}
+  - {fileID: 632632300}
   m_Father: {fileID: 1543653669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -29298,7 +29378,7 @@ GameObject:
   - component: {fileID: 2042274982}
   - component: {fileID: 2042274981}
   m_Layer: 5
-  m_Name: auf
+  m_Name: Coco auf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
