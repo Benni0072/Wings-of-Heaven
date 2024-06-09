@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private InputAction move;
     private InputAction look;
     private InputAction interact;
+    private InputAction pause;
 
     private Vector3 velocity;
 
@@ -27,6 +29,10 @@ public class PlayerController : MonoBehaviour
 
     public float gravity = -9.8f; //m/s/s
 
+    //______________________________________________________________________
+    public PauseMenu CurrentPause;
+    //______________________________________________________________________
+
     public interactable CurrentInteractable;
     public collectible CurrentCollectible;
 
@@ -38,6 +44,9 @@ public class PlayerController : MonoBehaviour
         look = PlayerInput.actions.FindAction("look");
         interact = PlayerInput.actions.FindAction("interact");
         cameraXRotation = Camera.rotation.eulerAngles.x;
+        //___________________________________________________________________
+        pause = PlayerInput.actions.FindAction("Pause");
+        //___________________________________________________________________
     }
 
     // Update is called once per frame
@@ -53,6 +62,8 @@ public class PlayerController : MonoBehaviour
         velocity.x = moveAmount.x;
         velocity.y += gravity * Time.deltaTime;
         velocity.z = moveAmount.z;
+
+
 
 
 
@@ -100,6 +111,10 @@ public class PlayerController : MonoBehaviour
         if (interact.WasPressedThisFrame() && CurrentCollectible != null)
             CurrentCollectible.Collect();
 
+        //_____________________________________________________________________________
+        if (pause.WasPressedThisFrame() && CurrentPause != null)
+            CurrentPause.PauseGame();
+        //_____________________________________________________________________________
     }
 
     private void OnTriggerEnter(Collider other)
