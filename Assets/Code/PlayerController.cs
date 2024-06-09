@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.8f; //m/s/s
 
     //______________________________________________________________________
-    public PauseMenu CurrentPause;
+    public PauseMenu pauseMenu;
     //______________________________________________________________________
 
     public interactable CurrentInteractable;
@@ -112,8 +112,8 @@ public class PlayerController : MonoBehaviour
             CurrentCollectible.Collect();
 
         //_____________________________________________________________________________
-        if (pause.WasPressedThisFrame() && CurrentPause != null)
-            CurrentPause.PauseGame();
+        if (pause.WasPressedThisFrame() && pauseMenu != null)
+            pauseMenu.PauseGame();
         //_____________________________________________________________________________
     }
 

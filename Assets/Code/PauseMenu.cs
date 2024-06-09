@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject PauseContainer;
 
+    public UnityEvent<bool> PauseOpen;
+
 
 
 
@@ -17,7 +19,7 @@ public class PauseMenu : MonoBehaviour
     {
         
         PauseContainer.SetActive(true);
-
+        PauseOpen.Invoke(true);
     }
 
     public void ToMenu()
@@ -29,5 +31,6 @@ public class PauseMenu : MonoBehaviour
     public void Continue()
     {
         PauseContainer.SetActive(false);
+        PauseOpen.Invoke(false);
     }
 }
