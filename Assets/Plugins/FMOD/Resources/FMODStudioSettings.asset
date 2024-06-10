@@ -336,6 +336,7 @@ MonoBehaviour:
   - Footsteps
   - Game State
   - Musik
+  - UI
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

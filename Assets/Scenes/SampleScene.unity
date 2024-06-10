@@ -7710,7 +7710,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  Animator: {fileID: 0}
+  Animator: {fileID: 1023152617}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!65 &628918333
@@ -12418,20 +12418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnCollected:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1023152617}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  Animator: {fileID: 0}
+      m_Calls: []
+  Animator: {fileID: 1023152617}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!65 &1028951456
@@ -18698,7 +18686,7 @@ MonoBehaviour:
   OnCollected:
     m_PersistentCalls:
       m_Calls: []
-  Animator: {fileID: 0}
+  Animator: {fileID: 1023152617}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!65 &1216736079
@@ -22616,7 +22604,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  Animator: {fileID: 0}
+  Animator: {fileID: 1023152617}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!4 &1431769117
@@ -30987,7 +30975,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  Animator: {fileID: 0}
+  Animator: {fileID: 1023152617}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!136 &1895635688
