@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -6,13 +7,25 @@ public class collectible : MonoBehaviour
     public UnityEvent OnCollected;
     private MeshRenderer renderer;
 
+    public Animator Animator;
+    public TriggerEventUnit collect;
+
     public Material NormalMaterial;
     public Material HighlightMaterial;
+
+
+
     //_____________________________________________
 
+    void OnTriggerEnter(Collider other)
+    {
+    
+
+    }
     public void Collect()
     {
         OnCollected.Invoke();
+
         Destroy(gameObject);
     }
 

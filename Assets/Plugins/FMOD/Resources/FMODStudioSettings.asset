@@ -333,6 +333,9 @@ MonoBehaviour:
   - Master
   Banks:
   - Atmo
+  - Footsteps
+  - Game State
+  - Musik
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

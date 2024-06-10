@@ -2669,6 +2669,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -6568,6 +6569,7 @@ MonoBehaviour:
   OnCollected:
     m_PersistentCalls:
       m_Calls: []
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -7708,6 +7710,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!65 &628918333
@@ -8064,6 +8067,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -9673,6 +9677,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -9880,6 +9885,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -11120,6 +11126,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -12412,10 +12419,10 @@ MonoBehaviour:
   OnCollected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
+      - m_Target: {fileID: 1023152617}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12424,6 +12431,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!65 &1028951456
@@ -18690,6 +18698,7 @@ MonoBehaviour:
   OnCollected:
     m_PersistentCalls:
       m_Calls: []
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!65 &1216736079
@@ -22607,6 +22616,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!4 &1431769117
@@ -30552,6 +30562,7 @@ MonoBehaviour:
   OnCollected:
     m_PersistentCalls:
       m_Calls: []
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: -876546973899608171, guid: 66d358790829e904a90fa668f174127e,
     type: 3}
   HighlightMaterial: {fileID: -876546973899608171, guid: 1e524f5fee20d8a40b47bc0172931062,
@@ -30976,6 +30987,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  Animator: {fileID: 0}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
 --- !u!136 &1895635688
@@ -33164,7 +33176,7 @@ GameObject:
   - component: {fileID: 2132209245}
   m_Layer: 0
   m_Name: Feder Dialog
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
