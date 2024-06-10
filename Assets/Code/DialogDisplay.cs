@@ -11,7 +11,6 @@ public class DialogDisplay : MonoBehaviour
     private DialogItem currentItem;
 
 
-
     public GameObject Container;
 
     public TMP_Text TextBox;
@@ -66,6 +65,9 @@ public class DialogDisplay : MonoBehaviour
 
         currentItem = item;
 
+        currentItem.image.SetActive(true);
+        currentItem.image_2.SetActive(true);
+
         DialogOpen.Invoke(true);
 
         //_______________SOUND_________________________________________________________________
@@ -75,6 +77,9 @@ public class DialogDisplay : MonoBehaviour
 
     public void EndDialog()
     {
+        currentItem.image.SetActive(false);
+        currentItem.image_2.SetActive(false);
+
         Container.SetActive(false);
 
         DialogOpen.Invoke(false);
@@ -91,6 +96,8 @@ public class DialogDisplay : MonoBehaviour
 
         if (option.NextDialog != null)
         {
+            currentItem.image.SetActive(false);
+            currentItem.image_2.SetActive(false);
             StartDialog(option.NextDialog);
         }
         else
