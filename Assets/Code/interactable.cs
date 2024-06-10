@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class interactable : MonoBehaviour
 {
     private MeshRenderer renderer;
 
-    public DialogDisplay DialogDisplay;
-    public DialogItem Item;
 
     public Material NormalMaterial;
     public Material HighlightMaterial;
+
+    public UnityEvent OnInteracted;
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class interactable : MonoBehaviour
 
     public void Interact()
     {
-        DialogDisplay.StartDialog(Item);
+        OnInteracted.Invoke();
 
         //DialogScreen.StartDialog(Item);
     }
@@ -32,11 +33,6 @@ public class interactable : MonoBehaviour
     public void Unhighlight()
     {
         renderer.material = NormalMaterial;
-    }
-
-    public void SetDialog(DialogItem newItem)
-    {
-        Item = newItem;
     }
 
 }

@@ -27,7 +27,8 @@ public class DialogDisplay : MonoBehaviour
     //public EventReference AtmoEventReference;
     //event Emitter
     public StudioEventEmitter Emitter;
-    //________________________________________________________
+
+    //__________________________________________________________________________________________________________________
 
 
     // Start is called before the first frame update
@@ -64,7 +65,12 @@ public class DialogDisplay : MonoBehaviour
         }
 
         currentItem = item;
+
         DialogOpen.Invoke(true);
+
+        //_______________SOUND_________________________________________________________________
+        // RuntimeManager.CreateInstance(AtmoEventReference).setParameterByName("Frog", 0);
+        Emitter.EventInstance.setParameterByName("Frog", 0);
     }
 
     public void EndDialog()
@@ -72,6 +78,8 @@ public class DialogDisplay : MonoBehaviour
         Container.SetActive(false);
 
         DialogOpen.Invoke(false);
+
+        Emitter.EventInstance.setParameterByName("Frog", 1);
     }
 
     public void ChooseOption(int index)
