@@ -308,7 +308,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: Assets/Sound
+  sourceBankPath: ../../../2.Semester/FMOD/Sophie_Fritzsche_Wings-of-Heaven_Vertical-track/Build/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

@@ -32,6 +32,11 @@ public class StartMenu : MonoBehaviour
         RuntimeManager.MuteAllEvents(muted);
     }
 
+    public void UnmuteAudio(bool unmuted)
+    {
+        RuntimeManager.MuteAllEvents(unmuted);
+    }
+
     public void QuitGame()
     {
         Application.Quit();
