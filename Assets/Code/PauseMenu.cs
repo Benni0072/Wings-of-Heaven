@@ -1,3 +1,5 @@
+using FMOD.Studio;
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +9,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    EventInstance musicInstance;
+
+    public EventReference MusicEvent;
 
     public GameObject PauseContainer;
 
@@ -24,8 +29,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ToMenu()
     {
-
-        SceneManager.LoadScene(0);
+         SceneManager.LoadScene(0);
     }
 
     public void Continue()
@@ -33,4 +37,12 @@ public class PauseMenu : MonoBehaviour
         PauseContainer.SetActive(false);
         PauseOpen.Invoke(false);
     }
+
+
+    public void MuteAudio(bool muted)
+    {
+        RuntimeManager.MuteAllEvents(muted);
+    }
+
+
 }

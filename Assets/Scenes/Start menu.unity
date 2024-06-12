@@ -251,7 +251,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 89481680}
   - component: {fileID: 89481684}
   - component: {fileID: 89481683}
+  - component: {fileID: 89481685}
   m_Layer: 5
   m_Name: MuteButton (2)
   m_TagString: Untagged
@@ -330,10 +331,10 @@ RectTransform:
   - {fileID: 533594558}
   m_Father: {fileID: 534655556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.49039587, y: 0.165}
-  m_AnchorMax: {x: 0.5615627, y: 0.21485187}
-  m_AnchoredPosition: {x: -2.0000992, y: 1}
-  m_SizeDelta: {x: 1.0788002, y: -0.5483017}
+  m_AnchorMin: {x: 0.4237709, y: 0.15385187}
+  m_AnchorMax: {x: 0.58400005, y: 0.22411115}
+  m_AnchoredPosition: {x: -1.1300049, y: 1}
+  m_SizeDelta: {x: -0.0739975, y: -1.677}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &89481680
 MonoBehaviour:
@@ -348,7 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 2
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -384,6 +385,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
         m_MethodName: MuteAudio
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 89481685}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -490,6 +503,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &89481685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89481678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037261819
+      Data2: 1292379291
+      Data3: -1545786178
+      Data4: 1427718735
+    Path: event:/UI/Button_Click
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &143063288
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +548,7 @@ GameObject:
   - component: {fileID: 143063290}
   - component: {fileID: 143063293}
   - component: {fileID: 143063294}
+  - component: {fileID: 143063295}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -526,10 +571,10 @@ RectTransform:
   - {fileID: 452194305}
   m_Father: {fileID: 2128093049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -749, y: -321}
-  m_SizeDelta: {x: 320.8693, y: 88.4034}
+  m_AnchorMin: {x: 0, y: 0.16100001}
+  m_AnchorMax: {x: 0.21547918, y: 0.2424074}
+  m_AnchoredPosition: {x: 31.07605, y: 1}
+  m_SizeDelta: {x: -57.161, y: 0.4034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143063290
 MonoBehaviour:
@@ -579,6 +624,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2145926203}
         m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
         m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 143063295}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -686,6 +743,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &143063295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143063288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037261819
+      Data2: 1292379291
+      Data3: -1545786178
+      Data4: 1427718735
+    Path: event:/UI/Button_Click
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &144103908
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +1058,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1104,7 +1192,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1238,7 +1326,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1409,6 +1497,7 @@ GameObject:
   - component: {fileID: 822072597}
   - component: {fileID: 822072596}
   - component: {fileID: 822072599}
+  - component: {fileID: 822072601}
   - component: {fileID: 822072600}
   m_Layer: 5
   m_Name: Start Button
@@ -1432,10 +1521,10 @@ RectTransform:
   - {fileID: 247996702}
   m_Father: {fileID: 2128093049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -749, y: -117}
-  m_SizeDelta: {x: 320.8693, y: 88.4034}
+  m_AnchorMin: {x: 0, y: 0.35244444}
+  m_AnchorMax: {x: 0.21547918, y: 0.43129632}
+  m_AnchoredPosition: {x: 30.033936, y: 0.29829407}
+  m_SizeDelta: {x: -59.2456, y: 3.4034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &822072596
 MonoBehaviour:
@@ -1501,6 +1590,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 822072601}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1604,6 +1705,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &822072601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822072594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037261819
+      Data2: 1292379291
+      Data3: -1545786178
+      Data4: 1427718735
+    Path: event:/UI/Button_Click
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &847092905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,7 +1902,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2049,6 +2181,7 @@ GameObject:
   - component: {fileID: 1489283745}
   - component: {fileID: 1489283749}
   - component: {fileID: 1489283748}
+  - component: {fileID: 1489283750}
   m_Layer: 5
   m_Name: Options Button
   m_TagString: Untagged
@@ -2071,10 +2204,10 @@ RectTransform:
   - {fileID: 899535575}
   m_Father: {fileID: 2128093049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -749, y: -219}
-  m_SizeDelta: {x: 320.8693, y: 88.4034}
+  m_AnchorMin: {x: 0, y: 0.2562963}
+  m_AnchorMax: {x: 0.21547918, y: 0.33855554}
+  m_AnchoredPosition: {x: 31.078, y: -0.5}
+  m_SizeDelta: {x: -57.157, y: -0.5966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489283745
 MonoBehaviour:
@@ -2136,6 +2269,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1928940885}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: Select
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1489283750}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2243,6 +2388,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1489283750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489283743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037261819
+      Data2: 1292379291
+      Data3: -1545786178
+      Data4: 1427718735
+    Path: event:/UI/Button_Click
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1627972280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,10 +2451,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 534655556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -87.36, y: 177.87646}
-  m_SizeDelta: {x: 277.6622, y: 78.5841}
+  m_AnchorMin: {x: 0.3818333, y: 0.6261111}
+  m_AnchorMax: {x: 0.52735424, y: 0.7004815}
+  m_AnchoredPosition: {x: -0.3600006, y: 1.8764648}
+  m_SizeDelta: {x: -2.337799, y: -1.4158936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1627972282
 MonoBehaviour:
@@ -2466,6 +2642,7 @@ GameObject:
   - component: {fileID: 1697796016}
   - component: {fileID: 1697796020}
   - component: {fileID: 1697796019}
+  - component: {fileID: 1697796021}
   m_Layer: 5
   m_Name: MuteButton (1)
   m_TagString: Untagged
@@ -2488,10 +2665,10 @@ RectTransform:
   - {fileID: 67140903}
   m_Father: {fileID: 534655556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.49300003, y: 0.23325929}
-  m_AnchorMax: {x: 0.5615627, y: 0.2815556}
-  m_AnchoredPosition: {x: -4.5, y: 0.2741089}
-  m_SizeDelta: {x: 6.0788, y: -0.5483017}
+  m_AnchorMin: {x: 0.4237709, y: 0.2312963}
+  m_AnchorMax: {x: 0.58400005, y: 0.30200002}
+  m_AnchoredPosition: {x: -1.1299591, y: 0.94104004}
+  m_SizeDelta: {x: -0.07400513, y: -2.1170006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697796016
 MonoBehaviour:
@@ -2506,7 +2683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 2
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2542,6 +2719,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
         m_MethodName: MuteAudio
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1697796021}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2648,6 +2837,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1697796021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697796014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037261819
+      Data2: 1292379291
+      Data3: -1545786178
+      Data4: 1427718735
+    Path: event:/UI/Button_Click
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1928940883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2662,6 +2882,7 @@ GameObject:
   - component: {fileID: 1928940885}
   - component: {fileID: 1928940889}
   - component: {fileID: 1928940888}
+  - component: {fileID: 1928940890}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -2684,10 +2905,10 @@ RectTransform:
   - {fileID: 2088386180}
   m_Father: {fileID: 534655556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.381, y: 0.5184815}
-  m_AnchorMax: {x: 0.52718765, y: 0.5871482}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
-  m_SizeDelta: {x: -0.000030518, y: 0}
+  m_AnchorMin: {x: 0.4237709, y: 0.5184815}
+  m_AnchorMax: {x: 0.58400005, y: 0.58529633}
+  m_AnchoredPosition: {x: -0.8100891, y: 1}
+  m_SizeDelta: {x: 0.085998535, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928940885
 MonoBehaviour:
@@ -2702,7 +2923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 2
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2749,6 +2970,18 @@ MonoBehaviour:
       - m_Target: {fileID: 822072596}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: Select
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1928940890}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2856,6 +3089,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1928940890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928940883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037261819
+      Data2: 1292379291
+      Data3: -1545786178
+      Data4: 1427718735
+    Path: event:/UI/Button_Click
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2088386179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,7 +3211,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

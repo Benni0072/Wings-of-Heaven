@@ -72,7 +72,7 @@ public class DialogDisplay : MonoBehaviour
 
         //_______________SOUND_________________________________________________________________
         // RuntimeManager.CreateInstance(AtmoEventReference).setParameterByName("Frog", 0);
-        Emitter.EventInstance.setParameterByName("Frog", 0);
+      //  Emitter.EventInstance.setParameterByName("Frog", 0);
     }
 
     public void EndDialog()
@@ -84,7 +84,7 @@ public class DialogDisplay : MonoBehaviour
 
         DialogOpen.Invoke(false);
 
-        Emitter.EventInstance.setParameterByName("Frog", 1);
+       // Emitter.EventInstance.setParameterByName("Frog", 1);
     }
 
     public void ChooseOption(int index)
