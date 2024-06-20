@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
 
-    public static EventInstance musicInstance;
+    public static EventInstance MusicInstance;
 
     public EventReference MusicEvent;
 
@@ -17,17 +17,17 @@ public class StartMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!musicInstance.hasHandle())
+        if (!MusicInstance.hasHandle())
         {
-            musicInstance = RuntimeManager.CreateInstance(MusicEvent);
-            musicInstance.start();
+            MusicInstance = RuntimeManager.CreateInstance(MusicEvent);
+            MusicInstance.start();
         }
     }
 
 
     public void StartGame()
     {
-         musicInstance.setParameterByNameWithLabel("Scene", "Level");
+        MusicInstance.setParameterByNameWithLabel("Scene", "Level");
 
         SceneManager.LoadScene(1);
     }

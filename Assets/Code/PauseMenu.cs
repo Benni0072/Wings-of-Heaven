@@ -9,9 +9,6 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    EventInstance musicInstance;
-
-    public EventReference MusicEvent;
 
     public GameObject PauseContainer;
 
@@ -28,7 +25,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ToMenu()
     {
-        StartMenu.musicInstance.setParameterByNameWithLabel("Level", "Menu");
+        StartMenu.MusicInstance.setParameterByNameWithLabel("Scene", "Menu");
 
         SceneManager.LoadScene(0);
     }
