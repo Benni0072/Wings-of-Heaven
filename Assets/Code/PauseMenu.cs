@@ -29,6 +29,7 @@ public class PauseMenu : MonoBehaviour
     public void ToMenu()
     {
         StartMenu.musicInstance.setParameterByNameWithLabel("Level", "Menu");
+
         SceneManager.LoadScene(0);
     }
 
