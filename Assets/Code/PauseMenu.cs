@@ -22,14 +22,14 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
-        
         PauseContainer.SetActive(true);
         PauseOpen.Invoke(true);
     }
 
     public void ToMenu()
     {
-         SceneManager.LoadScene(0);
+        StartMenu.musicInstance.setParameterByNameWithLabel("Level", "Menu");
+        SceneManager.LoadScene(0);
     }
 
     public void Continue()

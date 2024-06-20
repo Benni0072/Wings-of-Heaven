@@ -8,15 +8,20 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
 
-    EventInstance musicInstance;
+    public static EventInstance musicInstance;
 
     public EventReference MusicEvent;
+
+    //_____________________________________________________________________
 
     // Start is called before the first frame update
     void Start()
     {
-        musicInstance = RuntimeManager.CreateInstance(MusicEvent);
-        musicInstance.start();
+        if (!musicInstance.hasHandle())
+        {
+            musicInstance = RuntimeManager.CreateInstance(MusicEvent);
+            musicInstance.start();
+        }
     }
 
 
