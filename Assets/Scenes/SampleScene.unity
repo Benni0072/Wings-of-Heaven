@@ -7893,39 +7893,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120766635}
   m_LocalEulerAnglesHint: {x: -88.83, y: 61.247, z: -19.772}
---- !u!1 &443911142
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 443911143}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &443911143
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443911142}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1444939409}
-  - {fileID: 801654740}
-  m_Father: {fileID: 867978829}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &445570031
 GameObject:
   m_ObjectHideFlags: 0
@@ -13566,73 +13533,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &801654739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 801654740}
-  - component: {fileID: 801654742}
-  - component: {fileID: 801654741}
-  m_Layer: 0
-  m_Name: Whay do you wanne check
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &801654740
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801654739}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 443911143}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &801654741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801654739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Weiter
-  NextDialog: {fileID: 0}
-  OnOptionSelected:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &801654742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801654739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: What why would you do this? Whatever, do what you want.
-  image: {fileID: 821598804}
-  image_2: {fileID: 0}
-  Options:
-  - {fileID: 801654741}
 --- !u!1001 &802716425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14800,7 +14700,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 443911143}
   - {fileID: 1618828145}
   - {fileID: 1226377312}
   - {fileID: 1768341142}
@@ -30463,92 +30362,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 719130141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1444939405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1444939409}
-  - component: {fileID: 1444939408}
-  - component: {fileID: 1444939407}
-  - component: {fileID: 1444939406}
-  m_Layer: 0
-  m_Name: Why are you staring?
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1444939406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444939405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Just wanted to check on you
-  NextDialog: {fileID: 801654742}
-  OnOptionSelected:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1444939407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444939405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Nothing
-  NextDialog: {fileID: 0}
-  OnOptionSelected:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1444939408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444939405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Hey Coco, why are you staring.
-  image: {fileID: 821598804}
-  image_2: {fileID: 0}
-  Options:
-  - {fileID: 1444939407}
-  - {fileID: 1444939406}
---- !u!4 &1444939409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444939405}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 443911143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451870693
 GameObject:
