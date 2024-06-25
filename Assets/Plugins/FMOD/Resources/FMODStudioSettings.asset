@@ -333,6 +333,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Atmo
+  - Dialogue
   - Footsteps
   - Game State
   - Musik

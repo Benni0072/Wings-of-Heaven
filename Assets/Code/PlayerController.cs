@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
         cameraXRotation = Mathf.Clamp(cameraXRotation, 0, 90);
 
-        cameraRotation.x = cameraXRotation;
+        //cameraRotation.x = cameraXRotation;
 
         Camera.eulerAngles = cameraRotation;
 
