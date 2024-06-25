@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: '"Hey buddy are you allright?"'
+  Text: '"Hey buddy are you alright?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
   Options:
