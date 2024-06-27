@@ -84,6 +84,8 @@ public class PlayerController : MonoBehaviour
 
         transform.Rotate(0, lookInput.x, 0);
 
+        Debug.Log(lookInput);
+
         //radiant (rad)
 
         //float angle = cameraXRotation * Mathf.Deg2Rad;
