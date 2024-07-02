@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &10362203
 Transform:
   m_ObjectHideFlags: 0
@@ -281,13 +281,14 @@ GameObject:
   - component: {fileID: 10913045}
   - component: {fileID: 10913047}
   - component: {fileID: 10913046}
+  - component: {fileID: 10913048}
   m_Layer: 0
   m_Name: here they are
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &10913045
 Transform:
   m_ObjectHideFlags: 0
@@ -337,6 +338,37 @@ MonoBehaviour:
   image_2: {fileID: 757716661}
   Options:
   - {fileID: 10913046}
+--- !u!114 &10913048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10913044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &11991503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 237ec54c894bce54a8daebd67393ef1a,
@@ -654,7 +686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &24312551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,7 +757,7 @@ MonoBehaviour:
       Data4: 1533734773
     Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Verwunderung
   Event: 
-  PlayEvent: 11
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -752,13 +784,14 @@ GameObject:
   - component: {fileID: 29372113}
   - component: {fileID: 29372115}
   - component: {fileID: 29372114}
+  - component: {fileID: 29372116}
   m_Layer: 0
   m_Name: what are you looking for?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &29372113
 Transform:
   m_ObjectHideFlags: 0
@@ -820,6 +853,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 29372114}
+--- !u!114 &29372116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29372112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &30367108
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,13 +927,14 @@ GameObject:
   - component: {fileID: 35018362}
   - component: {fileID: 35018364}
   - component: {fileID: 35018363}
+  - component: {fileID: 35018365}
   m_Layer: 0
   m_Name: 'ill bring that '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &35018362
 Transform:
   m_ObjectHideFlags: 0
@@ -919,6 +984,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 35018363}
+--- !u!114 &35018365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35018361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &37038421
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,13 +1093,14 @@ GameObject:
   - component: {fileID: 37195677}
   - component: {fileID: 37195675}
   - component: {fileID: 37195676}
+  - component: {fileID: 37195678}
   m_Layer: 0
   m_Name: wanne see me next time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &37195675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,6 +1150,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1483781671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &37195678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37195674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1236259521
+      Data2: 1268000388
+      Data3: -209830004
+      Data4: 324312071
+    Path: "event:/Dialogue/Parasprache/Alex_Dialog/Alex_\xDCberraschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &39276621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1148,13 +1276,14 @@ GameObject:
   - component: {fileID: 44325558}
   - component: {fileID: 44325556}
   - component: {fileID: 44325557}
+  - component: {fileID: 44325559}
   m_Layer: 0
   m_Name: no time sorry for asking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &44325556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1216,6 +1345,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 747205325}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &44325559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44325555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 221904404
+      Data2: 1175878611
+      Data3: -1605745017
+      Data4: 516669682
+    Path: "event:/Dialogue/Parasprache/Alex_Dialog/Alex_\xDCberraschung_Whoa"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &45962727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2438,7 +2598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &83773928
 Transform:
   m_ObjectHideFlags: 0
@@ -3184,13 +3344,14 @@ GameObject:
   - component: {fileID: 137031174}
   - component: {fileID: 137031172}
   - component: {fileID: 137031173}
+  - component: {fileID: 137031175}
   m_Layer: 0
   m_Name: got the next feather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &137031172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3240,6 +3401,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 391612729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137031175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137031171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1882145499
+      Data2: 1188959468
+      Data3: 544983427
+      Data4: -1335903200
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Angst
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &137989037
 GameObject:
   m_ObjectHideFlags: 0
@@ -5068,13 +5260,14 @@ GameObject:
   - component: {fileID: 153540356}
   - component: {fileID: 153540358}
   - component: {fileID: 153540357}
+  - component: {fileID: 153540359}
   m_Layer: 0
   m_Name: get some medicin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &153540356
 Transform:
   m_ObjectHideFlags: 0
@@ -5124,6 +5317,37 @@ MonoBehaviour:
   image_2: {fileID: 636368721}
   Options:
   - {fileID: 153540357}
+--- !u!114 &153540359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153540355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1889446583
+      Data2: 1277274609
+      Data3: 933603456
+      Data4: -762020339
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &156796886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6372,13 +6596,14 @@ GameObject:
   - component: {fileID: 203593791}
   - component: {fileID: 203593789}
   - component: {fileID: 203593790}
+  - component: {fileID: 203593792}
   m_Layer: 0
   m_Name: here it is
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &203593789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6428,6 +6653,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1160433017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &203593792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203593788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &204612462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7411,13 +7667,14 @@ GameObject:
   - component: {fileID: 296807497}
   - component: {fileID: 296807499}
   - component: {fileID: 296807498}
+  - component: {fileID: 296807500}
   m_Layer: 0
   m_Name: What's wrong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &296807497
 Transform:
   m_ObjectHideFlags: 0
@@ -7467,6 +7724,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 296807498}
+--- !u!114 &296807500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296807496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 733622746
+      Data2: 1341668719
+      Data3: -1558103678
+      Data4: -364765821
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Zuneigung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &299056647
 GameObject:
   m_ObjectHideFlags: 0
@@ -7478,13 +7766,14 @@ GameObject:
   - component: {fileID: 299056648}
   - component: {fileID: 299056650}
   - component: {fileID: 299056649}
+  - component: {fileID: 299056651}
   m_Layer: 0
   m_Name: old storys in a book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &299056648
 Transform:
   m_ObjectHideFlags: 0
@@ -7535,6 +7824,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 299056649}
+--- !u!114 &299056651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299056647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 640964323
+      Data2: 1148858156
+      Data3: -2002084459
+      Data4: 2023412536
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &303540123
 GameObject:
   m_ObjectHideFlags: 0
@@ -7547,13 +7867,14 @@ GameObject:
   - component: {fileID: 303540127}
   - component: {fileID: 303540126}
   - component: {fileID: 303540125}
+  - component: {fileID: 303540128}
   m_Layer: 0
   m_Name: u are right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &303540124
 Transform:
   m_ObjectHideFlags: 0
@@ -7668,6 +7989,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 303540126}
+--- !u!114 &303540128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303540123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1141695484
+      Data2: 1295712295
+      Data3: 1572208520
+      Data4: 1177770340
+    Path: "event:/Dialogue/Parasprache/Coco_Dialog/Coco_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &312126567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7816,13 +8168,14 @@ GameObject:
   - component: {fileID: 312890038}
   - component: {fileID: 312890036}
   - component: {fileID: 312890037}
+  - component: {fileID: 312890039}
   m_Layer: 0
   m_Name: found last feather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &312890036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7872,6 +8225,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1607397110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312890039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312890035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1491445345
+      Data2: 1338836613
+      Data3: 1637997241
+      Data4: 1650808735
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Freude
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &312962138
 GameObject:
   m_ObjectHideFlags: 0
@@ -7883,13 +8267,14 @@ GameObject:
   - component: {fileID: 312962139}
   - component: {fileID: 312962141}
   - component: {fileID: 312962140}
+  - component: {fileID: 312962142}
   m_Layer: 0
   m_Name: next time think befor u speek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &312962139
 Transform:
   m_ObjectHideFlags: 0
@@ -7951,6 +8336,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 312962140}
+--- !u!114 &312962142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312962138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1044643735
+      Data2: 1133874814
+      Data3: 489959064
+      Data4: 1765962955
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Wut
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &314395233
 GameObject:
   m_ObjectHideFlags: 0
@@ -8396,7 +8812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &332192586
 Transform:
   m_ObjectHideFlags: 0
@@ -8469,13 +8885,14 @@ GameObject:
   - component: {fileID: 338359298}
   - component: {fileID: 338359296}
   - component: {fileID: 338359297}
+  - component: {fileID: 338359299}
   m_Layer: 0
   m_Name: i know u
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &338359296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8525,6 +8942,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2057114202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &338359299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338359295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &340243689
 GameObject:
   m_ObjectHideFlags: 0
@@ -8536,13 +8984,14 @@ GameObject:
   - component: {fileID: 340243690}
   - component: {fileID: 340243692}
   - component: {fileID: 340243691}
+  - component: {fileID: 340243693}
   m_Layer: 0
   m_Name: Oh of course
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &340243690
 Transform:
   m_ObjectHideFlags: 0
@@ -8592,6 +9041,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 340243691}
+--- !u!114 &340243693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340243689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1348333103
+      Data2: 1331626232
+      Data3: -1572762963
+      Data4: 1313317836
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Traurigkeit
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &358772729
 GameObject:
   m_ObjectHideFlags: 0
@@ -9479,13 +9959,14 @@ GameObject:
   - component: {fileID: 408972265}
   - component: {fileID: 408972267}
   - component: {fileID: 408972266}
+  - component: {fileID: 408972268}
   m_Layer: 0
   m_Name: seem familiar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &408972265
 Transform:
   m_ObjectHideFlags: 0
@@ -9535,6 +10016,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 408972266}
+--- !u!114 &408972268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408972264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -9789,13 +10301,14 @@ GameObject:
   - component: {fileID: 414690965}
   - component: {fileID: 414690967}
   - component: {fileID: 414690966}
+  - component: {fileID: 414690968}
   m_Layer: 0
   m_Name: there u are
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &414690965
 Transform:
   m_ObjectHideFlags: 0
@@ -9845,6 +10358,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 414690966}
+--- !u!114 &414690968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414690964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -242844956
+      Data2: 1208591472
+      Data3: -1284488516
+      Data4: -92461392
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &428227433
 GameObject:
   m_ObjectHideFlags: 0
@@ -9895,7 +10439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &431362691
 Transform:
   m_ObjectHideFlags: 0
@@ -10555,13 +11099,14 @@ GameObject:
   - component: {fileID: 458201919}
   - component: {fileID: 458201921}
   - component: {fileID: 458201920}
+  - component: {fileID: 458201922}
   m_Layer: 0
   m_Name: i bring them
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &458201919
 Transform:
   m_ObjectHideFlags: 0
@@ -10611,6 +11156,37 @@ MonoBehaviour:
   image_2: {fileID: 757716661}
   Options:
   - {fileID: 458201920}
+--- !u!114 &458201922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458201918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &460276021
 GameObject:
   m_ObjectHideFlags: 0
@@ -10969,13 +11545,14 @@ GameObject:
   - component: {fileID: 463981422}
   - component: {fileID: 463981420}
   - component: {fileID: 463981421}
+  - component: {fileID: 463981423}
   m_Layer: 0
   m_Name: How Aster look
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &463981420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11037,6 +11614,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463981423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463981419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -698792636
+      Data2: 1178024562
+      Data3: 1602213799
+      Data4: -1062292086
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Traurigkeit
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &464338310
 GameObject:
   m_ObjectHideFlags: 0
@@ -11086,13 +11694,14 @@ GameObject:
   - component: {fileID: 475483551}
   - component: {fileID: 475483553}
   - component: {fileID: 475483552}
+  - component: {fileID: 475483554}
   m_Layer: 0
   m_Name: i will
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &475483551
 Transform:
   m_ObjectHideFlags: 0
@@ -11142,6 +11751,37 @@ MonoBehaviour:
   image_2: {fileID: 1175575896}
   Options:
   - {fileID: 475483552}
+--- !u!114 &475483554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475483550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &484897782
 GameObject:
   m_ObjectHideFlags: 0
@@ -17618,13 +18258,14 @@ GameObject:
   - component: {fileID: 527484368}
   - component: {fileID: 527484366}
   - component: {fileID: 527484367}
+  - component: {fileID: 527484369}
   m_Layer: 0
   m_Name: did u get it?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &527484366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17674,6 +18315,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1160433017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &527484369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527484365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1889446583
+      Data2: 1277274609
+      Data3: 933603456
+      Data4: -762020339
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &532485105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 237ec54c894bce54a8daebd67393ef1a,
@@ -17817,13 +18489,14 @@ GameObject:
   - component: {fileID: 544435766}
   - component: {fileID: 544435768}
   - component: {fileID: 544435767}
+  - component: {fileID: 544435769}
   m_Layer: 0
   m_Name: cant go back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &544435766
 Transform:
   m_ObjectHideFlags: 0
@@ -17885,6 +18558,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 544435767}
+--- !u!114 &544435769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544435765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 733622746
+      Data2: 1341668719
+      Data3: -1558103678
+      Data4: -364765821
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Zuneigung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &544738884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23570,13 +24274,14 @@ GameObject:
   - component: {fileID: 607524134}
   - component: {fileID: 607524136}
   - component: {fileID: 607524135}
+  - component: {fileID: 607524137}
   m_Layer: 0
   m_Name: a tokenof gratitude
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &607524134
 Transform:
   m_ObjectHideFlags: 0
@@ -23626,6 +24331,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 607524135}
+--- !u!114 &607524137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607524133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 640964323
+      Data2: 1148858156
+      Data3: -2002084459
+      Data4: 2023412536
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &609277255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24607,13 +25343,14 @@ GameObject:
   - component: {fileID: 661063665}
   - component: {fileID: 661063662}
   - component: {fileID: 661063663}
+  - component: {fileID: 661063666}
   m_Layer: 0
   m_Name: You need the feather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &661063662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24663,6 +25400,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661063666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661063661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &664076897
 GameObject:
   m_ObjectHideFlags: 0
@@ -24675,13 +25443,14 @@ GameObject:
   - component: {fileID: 664076898}
   - component: {fileID: 664076899}
   - component: {fileID: 664076901}
+  - component: {fileID: 664076902}
   m_Layer: 0
   m_Name: Dialog ask for help
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &664076898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24749,6 +25518,37 @@ MonoBehaviour:
   OnOptionSelected:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &664076902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664076897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1889446583
+      Data2: 1277274609
+      Data3: 933603456
+      Data4: -762020339
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &665110777
 GameObject:
   m_ObjectHideFlags: 0
@@ -24865,13 +25665,14 @@ GameObject:
   - component: {fileID: 666708292}
   - component: {fileID: 666708294}
   - component: {fileID: 666708293}
+  - component: {fileID: 666708295}
   m_Layer: 0
-  m_Name: not yest?!
+  m_Name: not yet?!
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &666708292
 Transform:
   m_ObjectHideFlags: 0
@@ -24922,6 +25723,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 666708293}
+--- !u!114 &666708295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666708291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1479567523
+      Data2: 1195288259
+      Data3: -1990631288
+      Data4: -2071414260
+    Path: "event:/Dialogue/Parasprache/Benja_Dialog/Benja_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &669393713
 GameObject:
   m_ObjectHideFlags: 0
@@ -25377,7 +26209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &691304512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25456,7 +26288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &696220286
 Transform:
   m_ObjectHideFlags: 0
@@ -25918,7 +26750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &712531099
 Transform:
   m_ObjectHideFlags: 0
@@ -26284,13 +27116,14 @@ GameObject:
   - component: {fileID: 726205944}
   - component: {fileID: 726205946}
   - component: {fileID: 726205945}
+  - component: {fileID: 726205947}
   m_Layer: 0
   m_Name: already talk to benja? (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &726205944
 Transform:
   m_ObjectHideFlags: 0
@@ -26340,6 +27173,37 @@ MonoBehaviour:
   image_2: {fileID: 1175575896}
   Options:
   - {fileID: 726205945}
+--- !u!114 &726205947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726205943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1141695484
+      Data2: 1295712295
+      Data3: 1572208520
+      Data4: 1177770340
+    Path: "event:/Dialogue/Parasprache/Coco_Dialog/Coco_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &732893559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d381806aa902bc94b96b7f3dfa29261a,
@@ -26379,13 +27243,14 @@ GameObject:
   - component: {fileID: 734192608}
   - component: {fileID: 734192610}
   - component: {fileID: 734192609}
+  - component: {fileID: 734192611}
   m_Layer: 0
   m_Name: Here it is
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &734192608
 Transform:
   m_ObjectHideFlags: 0
@@ -26435,6 +27300,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 734192609}
+--- !u!114 &734192611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734192607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -242844956
+      Data2: 1208591472
+      Data3: -1284488516
+      Data4: -92461392
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &734602805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ad8378b0a87bdb445bd30f8e9090b276,
@@ -26488,7 +27384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &738523515
 Transform:
   m_ObjectHideFlags: 0
@@ -27067,13 +27963,14 @@ GameObject:
   - component: {fileID: 756155104}
   - component: {fileID: 756155106}
   - component: {fileID: 756155105}
+  - component: {fileID: 756155107}
   m_Layer: 0
   m_Name: just need one more
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &756155104
 Transform:
   m_ObjectHideFlags: 0
@@ -27123,6 +28020,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 756155105}
+--- !u!114 &756155107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756155103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1664851566
+      Data2: 1124204164
+      Data3: -1922469744
+      Data4: -383093876
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Begeisterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &757716661
 GameObject:
   m_ObjectHideFlags: 0
@@ -27427,13 +28355,14 @@ GameObject:
   - component: {fileID: 770699306}
   - component: {fileID: 770699304}
   - component: {fileID: 770699305}
+  - component: {fileID: 770699307}
   m_Layer: 0
   m_Name: Are you feeling well
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &770699304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27495,6 +28424,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &770699307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770699303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -220623751
+      Data2: 1149347146
+      Data3: -68967036
+      Data4: 767616734
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Verwirrung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &772948931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a886d240945c6f240988afe7e3f9c0ac,
@@ -28307,7 +29267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &810667775
 Transform:
   m_ObjectHideFlags: 0
@@ -34632,7 +35592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &889904902
 Transform:
   m_ObjectHideFlags: 0
@@ -34967,13 +35927,14 @@ GameObject:
   - component: {fileID: 899269505}
   - component: {fileID: 899269507}
   - component: {fileID: 899269506}
+  - component: {fileID: 899269508}
   m_Layer: 0
   m_Name: Don't waste my valuable time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &899269505
 Transform:
   m_ObjectHideFlags: 0
@@ -35023,6 +35984,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 899269506}
+--- !u!114 &899269508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899269504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1479567523
+      Data2: 1195288259
+      Data3: -1990631288
+      Data4: -2071414260
+    Path: "event:/Dialogue/Parasprache/Benja_Dialog/Benja_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &900105801
 GameObject:
   m_ObjectHideFlags: 0
@@ -35034,13 +36026,14 @@ GameObject:
   - component: {fileID: 900105804}
   - component: {fileID: 900105802}
   - component: {fileID: 900105803}
+  - component: {fileID: 900105805}
   m_Layer: 0
   m_Name: no time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &900105802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35090,6 +36083,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 747205325}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &900105805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900105801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1666819612
+      Data2: 1230526226
+      Data3: -146521698
+      Data4: -771065460
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Ablehnung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &904517395
 GameObject:
   m_ObjectHideFlags: 0
@@ -36241,13 +37265,14 @@ GameObject:
   - component: {fileID: 958979343}
   - component: {fileID: 958979342}
   - component: {fileID: 958979341}
+  - component: {fileID: 958979344}
   m_Layer: 0
   m_Name: hurry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &958979340
 Transform:
   m_ObjectHideFlags: 0
@@ -36350,6 +37375,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 958979342}
+--- !u!114 &958979344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958979339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -794925003
+      Data2: 1265565363
+      Data3: -1866369892
+      Data4: -2109958900
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &959860044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36550,13 +37606,14 @@ GameObject:
   - component: {fileID: 966115617}
   - component: {fileID: 966115619}
   - component: {fileID: 966115618}
+  - component: {fileID: 966115620}
   m_Layer: 0
   m_Name: Thanks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &966115617
 Transform:
   m_ObjectHideFlags: 0
@@ -36606,6 +37663,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 966115618}
+--- !u!114 &966115620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966115616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1037960088
+      Data2: 1080706392
+      Data3: -1002800238
+      Data4: -1190057331
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &969525012 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d9ad2d194659d14eb0067fd5419df00,
@@ -36623,13 +37711,14 @@ GameObject:
   - component: {fileID: 975575150}
   - component: {fileID: 975575152}
   - component: {fileID: 975575151}
+  - component: {fileID: 975575153}
   m_Layer: 0
   m_Name: do things together
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &975575150
 Transform:
   m_ObjectHideFlags: 0
@@ -36679,6 +37768,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 975575151}
+--- !u!114 &975575153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975575149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1348333103
+      Data2: 1331626232
+      Data3: -1572762963
+      Data4: 1313317836
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Traurigkeit
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &985125769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36840,25 +37960,13 @@ MonoBehaviour:
   OnCollected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1642306470}
+      - m_Target: {fileID: 1911502718}
         m_TargetAssemblyTypeName: Quest, Assembly-CSharp
         m_MethodName: StartQuest
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 460276028}
-        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: SetDialog
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 312890036}
-          m_ObjectArgumentAssemblyTypeName: DialogItem, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41849,13 +42957,14 @@ GameObject:
   - component: {fileID: 1006096576}
   - component: {fileID: 1006096578}
   - component: {fileID: 1006096577}
+  - component: {fileID: 1006096579}
   m_Layer: 0
   m_Name: I understand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1006096576
 Transform:
   m_ObjectHideFlags: 0
@@ -41905,6 +43014,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 1006096577}
+--- !u!114 &1006096579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006096575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 640964323
+      Data2: 1148858156
+      Data3: -2002084459
+      Data4: 2023412536
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1011242328
 GameObject:
   m_ObjectHideFlags: 0
@@ -41916,13 +43056,14 @@ GameObject:
   - component: {fileID: 1011242329}
   - component: {fileID: 1011242331}
   - component: {fileID: 1011242330}
+  - component: {fileID: 1011242332}
   m_Layer: 0
   m_Name: take a while
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1011242329
 Transform:
   m_ObjectHideFlags: 0
@@ -41973,6 +43114,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1011242330}
+--- !u!114 &1011242332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011242328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1020159336
 GameObject:
   m_ObjectHideFlags: 0
@@ -41984,13 +43156,14 @@ GameObject:
   - component: {fileID: 1020159339}
   - component: {fileID: 1020159337}
   - component: {fileID: 1020159338}
+  - component: {fileID: 1020159340}
   m_Layer: 0
   m_Name: sure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1020159337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42040,6 +43213,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 521777377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1020159340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020159336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1022526223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7206347349901426836, guid: 5cf75601ce1bd4348b1251e088a97573,
@@ -42886,7 +44090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1060726734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43560,13 +44764,14 @@ GameObject:
   - component: {fileID: 1104186881}
   - component: {fileID: 1104186879}
   - component: {fileID: 1104186880}
+  - component: {fileID: 1104186882}
   m_Layer: 0
   m_Name: got the next feather (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1104186879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43616,6 +44821,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 391612729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1104186882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104186878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1107210840
 GameObject:
   m_ObjectHideFlags: 0
@@ -44484,13 +45720,14 @@ GameObject:
   - component: {fileID: 1168295940}
   - component: {fileID: 1168295937}
   - component: {fileID: 1168295938}
+  - component: {fileID: 1168295941}
   m_Layer: 0
   m_Name: should come see her
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1168295937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44564,6 +45801,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1160433017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1168295941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168295936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2104999331
+      Data2: 1229949958
+      Data3: -1785598535
+      Data4: -1800288516
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Verwunderung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1168313618
 GameObject:
   m_ObjectHideFlags: 0
@@ -44690,13 +45958,14 @@ GameObject:
   - component: {fileID: 1174594949}
   - component: {fileID: 1174594951}
   - component: {fileID: 1174594950}
+  - component: {fileID: 1174594952}
   m_Layer: 0
   m_Name: here is ure feather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1174594949
 Transform:
   m_ObjectHideFlags: 0
@@ -44746,6 +46015,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 1174594950}
+--- !u!114 &1174594952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174594948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1175575896
 GameObject:
   m_ObjectHideFlags: 0
@@ -45230,13 +46530,14 @@ GameObject:
   - component: {fileID: 1187643249}
   - component: {fileID: 1187643251}
   - component: {fileID: 1187643250}
+  - component: {fileID: 1187643252}
   m_Layer: 0
   m_Name: thats what im looking for
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1187643249
 Transform:
   m_ObjectHideFlags: 0
@@ -45298,6 +46599,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1187643250}
+--- !u!114 &1187643252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187643248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1693546157
+      Data2: 1310498802
+      Data3: 604857737
+      Data4: 750080833
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_freude
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1190396981
 GameObject:
   m_ObjectHideFlags: 0
@@ -46133,13 +47465,14 @@ GameObject:
   - component: {fileID: 1222007512}
   - component: {fileID: 1222007510}
   - component: {fileID: 1222007511}
+  - component: {fileID: 1222007513}
   m_Layer: 0
   m_Name: youre back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1222007510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46189,6 +47522,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1370535273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1222007513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222007509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 876551927
+      Data2: 1179836803
+      Data3: -1070405990
+      Data4: -1460332595
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Freude_hehe
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1225276717
 GameObject:
   m_ObjectHideFlags: 0
@@ -46206,7 +47570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1225276718
 Transform:
   m_ObjectHideFlags: 0
@@ -46267,13 +47631,14 @@ GameObject:
   - component: {fileID: 1226377312}
   - component: {fileID: 1226377314}
   - component: {fileID: 1226377313}
+  - component: {fileID: 1226377315}
   m_Layer: 0
   m_Name: Alex send me
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1226377312
 Transform:
   m_ObjectHideFlags: 0
@@ -46323,6 +47688,37 @@ MonoBehaviour:
   image_2: {fileID: 757716661}
   Options:
   - {fileID: 1226377313}
+--- !u!114 &1226377315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226377311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1226702558
 GameObject:
   m_ObjectHideFlags: 0
@@ -47125,13 +48521,14 @@ GameObject:
   - component: {fileID: 1250018236}
   - component: {fileID: 1250018234}
   - component: {fileID: 1250018235}
+  - component: {fileID: 1250018237}
   m_Layer: 0
   m_Name: are you sure ure not hurt?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1250018234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47193,6 +48590,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1250018237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250018233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2083345798
+      Data2: 1151135675
+      Data3: 24414616
+      Data4: -1095924276
+    Path: "event:/Dialogue/Parasprache/Coco_Dialog/Coco_\xDCberraschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1250769584
 GameObject:
   m_ObjectHideFlags: 0
@@ -47210,7 +48638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1250769585
 Transform:
   m_ObjectHideFlags: 0
@@ -47637,7 +49065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1258768988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47704,7 +49132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1262835078
 Transform:
   m_ObjectHideFlags: 0
@@ -47771,7 +49199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1264113654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47967,13 +49395,14 @@ GameObject:
   - component: {fileID: 1272725783}
   - component: {fileID: 1272725785}
   - component: {fileID: 1272725784}
+  - component: {fileID: 1272725786}
   m_Layer: 0
   m_Name: got them already
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1272725783
 Transform:
   m_ObjectHideFlags: 0
@@ -48023,6 +49452,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1272725784}
+--- !u!114 &1272725786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272725782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1842186864
+      Data2: 1144393368
+      Data3: 1992214180
+      Data4: -1896287603
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Verwunderung_1
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1285783859
 GameObject:
   m_ObjectHideFlags: 0
@@ -50890,13 +52350,14 @@ GameObject:
   - component: {fileID: 1315704005}
   - component: {fileID: 1315704007}
   - component: {fileID: 1315704006}
+  - component: {fileID: 1315704008}
   m_Layer: 0
   m_Name: not yet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1315704005
 Transform:
   m_ObjectHideFlags: 0
@@ -50946,6 +52407,37 @@ MonoBehaviour:
   image_2: {fileID: 757716661}
   Options:
   - {fileID: 1315704006}
+--- !u!114 &1315704008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315704004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1317781017
 GameObject:
   m_ObjectHideFlags: 0
@@ -56649,13 +58141,14 @@ GameObject:
   - component: {fileID: 1412104899}
   - component: {fileID: 1412104901}
   - component: {fileID: 1412104900}
+  - component: {fileID: 1412104902}
   m_Layer: 0
   m_Name: cant help
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1412104899
 Transform:
   m_ObjectHideFlags: 0
@@ -56705,6 +58198,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1412104900}
+--- !u!114 &1412104902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412104898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -242844956
+      Data2: 1208591472
+      Data3: -1284488516
+      Data4: -92461392
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1412762431
 GameObject:
   m_ObjectHideFlags: 0
@@ -56783,13 +58307,14 @@ GameObject:
   - component: {fileID: 1416314036}
   - component: {fileID: 1416314034}
   - component: {fileID: 1416314035}
+  - component: {fileID: 1416314037}
   m_Layer: 0
   m_Name: sorry for bother
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1416314034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56839,6 +58364,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1482295403}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1416314037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416314033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1416399715 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8618526131438309190, guid: 6c26b044955d92841ae247c7f6b16ebe,
@@ -57303,13 +58859,14 @@ GameObject:
   - component: {fileID: 1433817163}
   - component: {fileID: 1433817165}
   - component: {fileID: 1433817164}
+  - component: {fileID: 1433817166}
   m_Layer: 0
   m_Name: look at the stars together
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1433817163
 Transform:
   m_ObjectHideFlags: 0
@@ -57359,6 +58916,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1433817164}
+--- !u!114 &1433817166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433817162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 603695253
+      Data2: 1175004034
+      Data3: -1198958409
+      Data4: 1484318172
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!43 &1435933171
 Mesh:
   m_ObjectHideFlags: 0
@@ -57535,13 +59123,14 @@ GameObject:
   - component: {fileID: 1437923954}
   - component: {fileID: 1437923952}
   - component: {fileID: 1437923953}
+  - component: {fileID: 1437923955}
   m_Layer: 0
   m_Name: cant tell you
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1437923952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57603,6 +59192,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1437923955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437923951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1882145499
+      Data2: 1188959468
+      Data3: 544983427
+      Data4: -1335903200
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Angst
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1444230860
 GameObject:
   m_ObjectHideFlags: 0
@@ -57614,13 +59234,14 @@ GameObject:
   - component: {fileID: 1444230861}
   - component: {fileID: 1444230864}
   - component: {fileID: 1444230863}
+  - component: {fileID: 1444230865}
   m_Layer: 0
   m_Name: he should show up next time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1444230861
 Transform:
   m_ObjectHideFlags: 0
@@ -57670,6 +59291,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1444230863}
+--- !u!114 &1444230865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444230860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -794925003
+      Data2: 1265565363
+      Data3: -1866369892
+      Data4: -2109958900
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1444649436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58430,13 +60082,14 @@ GameObject:
   - component: {fileID: 1474766789}
   - component: {fileID: 1474766787}
   - component: {fileID: 1474766788}
+  - component: {fileID: 1474766790}
   m_Layer: 0
   m_Name: meeting for the first time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1474766787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58486,6 +60139,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2057114202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1474766790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474766786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 603695253
+      Data2: 1175004034
+      Data3: -1198958409
+      Data4: 1484318172
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1477524363
 GameObject:
   m_ObjectHideFlags: 0
@@ -59113,13 +60797,14 @@ GameObject:
   - component: {fileID: 1499618618}
   - component: {fileID: 1499618616}
   - component: {fileID: 1499618617}
+  - component: {fileID: 1499618619}
   m_Layer: 0
   m_Name: lost something
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1499618616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59181,6 +60866,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499618619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499618615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 733622746
+      Data2: 1341668719
+      Data3: -1558103678
+      Data4: -364765821
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Zuneigung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1514275803
 GameObject:
   m_ObjectHideFlags: 0
@@ -59215,7 +60931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7735625, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.96848154}
-  m_AnchoredPosition: {x: 0.60357666, y: -0.5299988}
+  m_AnchoredPosition: {x: 0.6036377, y: -0.5299988}
   m_SizeDelta: {x: -1.1970825, y: -1.0599976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514275805
@@ -59332,13 +61048,14 @@ GameObject:
   - component: {fileID: 1519072003}
   - component: {fileID: 1519072005}
   - component: {fileID: 1519072004}
+  - component: {fileID: 1519072006}
   m_Layer: 0
   m_Name: need them to fly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1519072003
 Transform:
   m_ObjectHideFlags: 0
@@ -59400,6 +61117,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1519072004}
+--- !u!114 &1519072006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519072002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1477118878
+      Data2: 1221723921
+      Data3: 2067804807
+      Data4: -1188096562
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1520660829
 GameObject:
   m_ObjectHideFlags: 0
@@ -59868,7 +61616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1545653662
 Transform:
   m_ObjectHideFlags: 0
@@ -60108,7 +61856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1552143606
 Transform:
   m_ObjectHideFlags: 0
@@ -60313,7 +62061,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1555458408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60375,13 +62123,14 @@ GameObject:
   - component: {fileID: 1558455180}
   - component: {fileID: 1558455182}
   - component: {fileID: 1558455181}
+  - component: {fileID: 1558455183}
   m_Layer: 0
   m_Name: need to go back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1558455180
 Transform:
   m_ObjectHideFlags: 0
@@ -60431,6 +62180,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1558455181}
+--- !u!114 &1558455183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558455179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 255928294
+      Data2: 1105517956
+      Data3: -1883166322
+      Data4: -467819372
+    Path: "event:/Dialogue/Parasprache/Aster_Dialog/Aster_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1560934453
 GameObject:
   m_ObjectHideFlags: 0
@@ -60639,13 +62419,14 @@ GameObject:
   - component: {fileID: 1563567087}
   - component: {fileID: 1563567089}
   - component: {fileID: 1563567088}
+  - component: {fileID: 1563567090}
   m_Layer: 0
   m_Name: already talk to benja?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1563567087
 Transform:
   m_ObjectHideFlags: 0
@@ -60695,6 +62476,37 @@ MonoBehaviour:
   image_2: {fileID: 636368721}
   Options:
   - {fileID: 1563567088}
+--- !u!114 &1563567090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563567086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 498974836
+      Data2: 1319645440
+      Data3: -1826037595
+      Data4: -341795271
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Verwirrung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1563704828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60865,13 +62677,14 @@ GameObject:
   - component: {fileID: 1573915469}
   - component: {fileID: 1573915471}
   - component: {fileID: 1573915470}
+  - component: {fileID: 1573915472}
   m_Layer: 0
   m_Name: got the next feather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1573915469
 Transform:
   m_ObjectHideFlags: 0
@@ -60921,6 +62734,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 1573915470}
+--- !u!114 &1573915472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573915468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2083345798
+      Data2: 1151135675
+      Data3: 24414616
+      Data4: -1095924276
+    Path: "event:/Dialogue/Parasprache/Coco_Dialog/Coco_\xDCberraschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1582202439
 GameObject:
   m_ObjectHideFlags: 0
@@ -61087,13 +62931,14 @@ GameObject:
   - component: {fileID: 1593612407}
   - component: {fileID: 1593612409}
   - component: {fileID: 1593612408}
+  - component: {fileID: 1593612410}
   m_Layer: 0
   m_Name: i bring it alex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1593612407
 Transform:
   m_ObjectHideFlags: 0
@@ -61143,6 +62988,37 @@ MonoBehaviour:
   image_2: {fileID: 757716661}
   Options:
   - {fileID: 1593612408}
+--- !u!114 &1593612410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593612406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2126890485
+      Data2: 1330414359
+      Data3: -1872174671
+      Data4: 1844540839
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zustimmung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1595128086
 GameObject:
   m_ObjectHideFlags: 0
@@ -61154,13 +63030,14 @@ GameObject:
   - component: {fileID: 1595128089}
   - component: {fileID: 1595128087}
   - component: {fileID: 1595128088}
+  - component: {fileID: 1595128090}
   m_Layer: 0
   m_Name: owe u one
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1595128087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61222,6 +63099,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1160433017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1595128090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595128086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 876551927
+      Data2: 1179836803
+      Data3: -1070405990
+      Data4: -1460332595
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Freude_hehe
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1601907515
 GameObject:
   m_ObjectHideFlags: 0
@@ -61350,13 +63258,14 @@ GameObject:
   - component: {fileID: 1607812062}
   - component: {fileID: 1607812064}
   - component: {fileID: 1607812063}
+  - component: {fileID: 1607812065}
   m_Layer: 0
   m_Name: did alex receive medicine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1607812062
 Transform:
   m_ObjectHideFlags: 0
@@ -61406,6 +63315,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1607812063}
+--- !u!114 &1607812065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607812061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1842186864
+      Data2: 1144393368
+      Data3: 1992214180
+      Data4: -1896287603
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Verwunderung_1
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1610323916
 GameObject:
   m_ObjectHideFlags: 0
@@ -61521,13 +63461,14 @@ GameObject:
   - component: {fileID: 1618828148}
   - component: {fileID: 1618828147}
   - component: {fileID: 1618828146}
+  - component: {fileID: 1618828149}
   m_Layer: 0
   m_Name: U need something?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1618828145
 Transform:
   m_ObjectHideFlags: 0
@@ -61595,6 +63536,37 @@ MonoBehaviour:
   Options:
   - {fileID: 1618828147}
   - {fileID: 1618828146}
+--- !u!114 &1618828149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618828144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -242844956
+      Data2: 1208591472
+      Data3: -1284488516
+      Data4: -92461392
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1631130520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62029,13 +64001,14 @@ GameObject:
   - component: {fileID: 1644316176}
   - component: {fileID: 1644316178}
   - component: {fileID: 1644316177}
+  - component: {fileID: 1644316179}
   m_Layer: 0
   m_Name: just your imagination
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1644316176
 Transform:
   m_ObjectHideFlags: 0
@@ -62085,6 +64058,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1644316177}
+--- !u!114 &1644316179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644316175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1449830465
+      Data2: 1244717132
+      Data3: -742049124
+      Data4: 860959800
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Ablehnung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1648258627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67191,13 +69195,14 @@ GameObject:
   - component: {fileID: 1663942053}
   - component: {fileID: 1663942055}
   - component: {fileID: 1663942054}
+  - component: {fileID: 1663942056}
   m_Layer: 0
   m_Name: one of the dragons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1663942053
 Transform:
   m_ObjectHideFlags: 0
@@ -67247,6 +69252,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1663942054}
+--- !u!114 &1663942056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663942052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -698792636
+      Data2: 1178024562
+      Data3: 1602213799
+      Data4: -1062292086
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Traurigkeit
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1666444056
 GameObject:
   m_ObjectHideFlags: 0
@@ -72370,7 +74406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1681730398
 Transform:
   m_ObjectHideFlags: 0
@@ -72431,13 +74467,14 @@ GameObject:
   - component: {fileID: 1687122259}
   - component: {fileID: 1687122257}
   - component: {fileID: 1687122258}
+  - component: {fileID: 1687122260}
   m_Layer: 0
   m_Name: why is that
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1687122257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72499,6 +74536,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687122260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687122256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -472555718
+      Data2: 1084052536
+      Data3: -337889102
+      Data4: 1533734773
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Verwunderung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1690412427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74169,7 +76237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1765942674
 Transform:
   m_ObjectHideFlags: 0
@@ -74305,13 +76373,14 @@ GameObject:
   - component: {fileID: 1768341142}
   - component: {fileID: 1768341144}
   - component: {fileID: 1768341143}
+  - component: {fileID: 1768341145}
   m_Layer: 0
   m_Name: Alex send u?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1768341142
 Transform:
   m_ObjectHideFlags: 0
@@ -74361,6 +76430,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1768341143}
+--- !u!114 &1768341145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768341141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1474070196
+      Data2: 1137581421
+      Data3: -1142601559
+      Data4: 270358402
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Verwunderung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1768794302
 GameObject:
   m_ObjectHideFlags: 0
@@ -74523,13 +76623,14 @@ GameObject:
   - component: {fileID: 1778919104}
   - component: {fileID: 1778919106}
   - component: {fileID: 1778919105}
+  - component: {fileID: 1778919107}
   m_Layer: 0
   m_Name: come back to visit u
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1778919104
 Transform:
   m_ObjectHideFlags: 0
@@ -74580,6 +76681,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 1778919105}
+--- !u!114 &1778919107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778919103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 255928294
+      Data2: 1105517956
+      Data3: -1883166322
+      Data4: -467819372
+    Path: "event:/Dialogue/Parasprache/Aster_Dialog/Aster_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1786174563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9ea848cf3c0331247919affbe3d076b1,
@@ -82798,13 +84930,14 @@ GameObject:
   - component: {fileID: 1911502720}
   - component: {fileID: 1911502719}
   - component: {fileID: 1911502718}
+  - component: {fileID: 1911502721}
   m_Layer: 0
   m_Name: he should show up next time (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1911502717
 Transform:
   m_ObjectHideFlags: 0
@@ -82878,18 +85011,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1911502718}
-        m_TargetAssemblyTypeName: Quest, Assembly-CSharp
-        m_MethodName: StartQuest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1953260358}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
         m_MethodName: SetDialog
@@ -82932,6 +85053,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1911502719}
+--- !u!114 &1911502721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911502716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -794925003
+      Data2: 1265565363
+      Data3: -1866369892
+      Data4: -2109958900
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1923278548
 GameObject:
   m_ObjectHideFlags: 0
@@ -83425,13 +85577,14 @@ GameObject:
   - component: {fileID: 1941651214}
   - component: {fileID: 1941651216}
   - component: {fileID: 1941651215}
+  - component: {fileID: 1941651217}
   m_Layer: 0
   m_Name: found one
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1941651214
 Transform:
   m_ObjectHideFlags: 0
@@ -83493,6 +85646,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 1941651215}
+--- !u!114 &1941651217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941651213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1943596124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83889,7 +86073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1969872678
 Transform:
   m_ObjectHideFlags: 0
@@ -83956,7 +86140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1975628968
 Transform:
   m_ObjectHideFlags: 0
@@ -84017,13 +86201,14 @@ GameObject:
   - component: {fileID: 1978636635}
   - component: {fileID: 1978636637}
   - component: {fileID: 1978636636}
+  - component: {fileID: 1978636638}
   m_Layer: 0
   m_Name: What's up?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1978636635
 Transform:
   m_ObjectHideFlags: 0
@@ -84073,6 +86258,37 @@ MonoBehaviour:
   image_2: {fileID: 600782440}
   Options:
   - {fileID: 1978636636}
+--- !u!114 &1978636638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978636634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -242844956
+      Data2: 1208591472
+      Data3: -1284488516
+      Data4: -92461392
+    Path: event:/Dialogue/Parasprache/Benja_Dialog/Benja_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1984512643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84710,13 +86926,14 @@ GameObject:
   - component: {fileID: 1994467087}
   - component: {fileID: 1994467085}
   - component: {fileID: 1994467086}
+  - component: {fileID: 1994467088}
   m_Layer: 0
   m_Name: Thanks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1994467085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84766,6 +86983,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1160433017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1994467088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994467084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1317677085
+      Data2: 1111875392
+      Data3: 2019797166
+      Data4: 164390667
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Begeisterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1996513649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 70cac5e5560cdc94cae4078cb33b99c9,
@@ -84812,7 +87060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1999835326
 Transform:
   m_ObjectHideFlags: 0
@@ -88114,7 +90362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2040510568
 Transform:
   m_ObjectHideFlags: 0
@@ -88495,7 +90743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2048135957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88702,13 +90950,14 @@ GameObject:
   - component: {fileID: 2054745317}
   - component: {fileID: 2054745319}
   - component: {fileID: 2054745318}
+  - component: {fileID: 2054745320}
   m_Layer: 0
   m_Name: literally fell from the sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2054745317
 Transform:
   m_ObjectHideFlags: 0
@@ -88771,6 +91020,37 @@ MonoBehaviour:
   image_2: {fileID: 807838962}
   Options:
   - {fileID: 2054745318}
+--- !u!114 &2054745320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054745316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 603695253
+      Data2: 1175004034
+      Data3: -1198958409
+      Data4: 1484318172
+    Path: event:/Dialogue/Parasprache/Aster_Dialog/Aster_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2057114201
 GameObject:
   m_ObjectHideFlags: 0
@@ -89037,13 +91317,14 @@ GameObject:
   - component: {fileID: 2095772177}
   - component: {fileID: 2095772179}
   - component: {fileID: 2095772178}
+  - component: {fileID: 2095772180}
   m_Layer: 0
   m_Name: are u clear what u want
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2095772175
 Transform:
   m_ObjectHideFlags: 0
@@ -89111,6 +91392,37 @@ MonoBehaviour:
   OnOptionSelected:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2095772180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095772174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1479567523
+      Data2: 1195288259
+      Data3: -1990631288
+      Data4: -2071414260
+    Path: "event:/Dialogue/Parasprache/Benja_Dialog/Benja_Entt\xE4uschung"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2097378558
 GameObject:
   m_ObjectHideFlags: 0
@@ -89122,13 +91434,14 @@ GameObject:
   - component: {fileID: 2097378559}
   - component: {fileID: 2097378561}
   - component: {fileID: 2097378560}
+  - component: {fileID: 2097378562}
   m_Layer: 0
   m_Name: Promise?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2097378559
 Transform:
   m_ObjectHideFlags: 0
@@ -89178,6 +91491,37 @@ MonoBehaviour:
   image_2: {fileID: 2014666165}
   Options:
   - {fileID: 2097378560}
+--- !u!114 &2097378562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097378558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 640964323
+      Data2: 1148858156
+      Data3: -2002084459
+      Data4: 2023412536
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Erleichterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2097423500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89823,13 +92167,14 @@ GameObject:
   - component: {fileID: 2129423875}
   - component: {fileID: 2129423877}
   - component: {fileID: 2129423876}
+  - component: {fileID: 2129423878}
   m_Layer: 0
   m_Name: big help
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2129423875
 Transform:
   m_ObjectHideFlags: 0
@@ -89879,6 +92224,37 @@ MonoBehaviour:
   image_2: {fileID: 636368721}
   Options:
   - {fileID: 2129423876}
+--- !u!114 &2129423878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129423874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -458896305
+      Data2: 1103938992
+      Data3: -1990167666
+      Data4: 439719225
+    Path: event:/Dialogue/Parasprache/Alex_Dialog/Alex_Begeisterung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2129504728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89979,13 +92355,14 @@ GameObject:
   - component: {fileID: 2130369056}
   - component: {fileID: 2130369058}
   - component: {fileID: 2130369057}
+  - component: {fileID: 2130369059}
   m_Layer: 0
   m_Name: Nothing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2130369056
 Transform:
   m_ObjectHideFlags: 0
@@ -90035,6 +92412,37 @@ MonoBehaviour:
   image_2: {fileID: 757716661}
   Options:
   - {fileID: 2130369057}
+--- !u!114 &2130369059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130369055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -220623751
+      Data2: 1149347146
+      Data3: -68967036
+      Data4: 767616734
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Verwirrung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2132209243
 GameObject:
   m_ObjectHideFlags: 0
@@ -90119,13 +92527,14 @@ GameObject:
   - component: {fileID: 2142771921}
   - component: {fileID: 2142771919}
   - component: {fileID: 2142771920}
+  - component: {fileID: 2142771922}
   m_Layer: 0
   m_Name: what do you mean by that
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2142771919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90187,6 +92596,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 719130141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2142771922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142771918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -220623751
+      Data2: 1149347146
+      Data3: -68967036
+      Data4: 767616734
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Verwirrung
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2143828466
 GameObject:
   m_ObjectHideFlags: 0

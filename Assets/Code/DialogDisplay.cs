@@ -64,6 +64,7 @@ public class DialogDisplay : MonoBehaviour
         }
 
         currentItem = item;
+        item.gameObject.SetActive(true);
 
         currentItem.image.SetActive(true);
         currentItem.image_2.SetActive(true);
