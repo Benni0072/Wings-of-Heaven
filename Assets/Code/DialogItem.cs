@@ -10,6 +10,8 @@ public class DialogItem : MonoBehaviour
 
     public GameObject image_2;
 
+    public GameObject image_3;
+
     public List<DialogOption> Options;
 
 }

@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class DialogDisplay : MonoBehaviour
 {
@@ -64,11 +65,21 @@ public class DialogDisplay : MonoBehaviour
         }
 
         currentItem = item;
+
+
+        if (currentItem.image != null)
+        {
+            currentItem.image.SetActive(true);
+        }
+        if (currentItem.image_2 != null)
+        {
+            currentItem.image_2.SetActive(true);
+        }
+        if (currentItem.image_3 != null)
+        {
+            currentItem.image_3.SetActive(true);
+        }
         item.gameObject.SetActive(true);
-
-        currentItem.image.SetActive(true);
-        currentItem.image_2.SetActive(true);
-
         DialogOpen.Invoke(true);
 
         //_______________SOUND_________________________________________________________________
@@ -78,8 +89,20 @@ public class DialogDisplay : MonoBehaviour
 
     public void EndDialog()
     {
-        currentItem.image.SetActive(false);
-        currentItem.image_2.SetActive(false);
+        if (currentItem.image != null)
+        {
+            currentItem.image.SetActive(false);
+        }
+        if (currentItem.image_2 != null)
+        {
+            currentItem.image_2.SetActive(false);
+        }
+        if (currentItem.image_3 != null)
+        {
+            currentItem.image_3.SetActive(false);
+        }
+
+
 
         Container.SetActive(false);
 
@@ -97,8 +120,18 @@ public class DialogDisplay : MonoBehaviour
 
         if (option.NextDialog != null)
         {
-            currentItem.image.SetActive(false);
-            currentItem.image_2.SetActive(false);
+            if (currentItem.image != null)
+            {
+                currentItem.image.SetActive(false);
+            }
+            if (currentItem.image_2 != null)
+            {
+                currentItem.image_2.SetActive(false);
+            }
+            if (currentItem.image_3 != null)
+            {
+                currentItem.image_3.SetActive(false);
+            }
             StartDialog(option.NextDialog);
         }
         else

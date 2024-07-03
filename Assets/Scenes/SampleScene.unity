@@ -251,6 +251,7 @@ MonoBehaviour:
   Text: '"I will help you get your feathers back."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 10362205}
 --- !u!114 &10362207
@@ -336,6 +337,7 @@ MonoBehaviour:
   Text: '"Yes, here they are."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 10913046}
 --- !u!114 &10913048
@@ -702,6 +704,7 @@ MonoBehaviour:
   Text: '"Hey buddy are you alright?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 24312552}
 --- !u!114 &24312552
@@ -851,6 +854,7 @@ MonoBehaviour:
   Text: '"What exactly are you looking for?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 29372114}
 --- !u!114 &29372116
@@ -982,6 +986,7 @@ MonoBehaviour:
   Text: '"Sure, I''ll bring you that one too."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 35018363}
 --- !u!114 &35018365
@@ -1080,6 +1085,7 @@ MonoBehaviour:
   Text: '"Why is it glowing?"'
   image: {fileID: 0}
   image_2: {fileID: 0}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 37038423}
 --- !u!1 &37195674
@@ -1116,6 +1122,7 @@ MonoBehaviour:
   Text: '"What do I do? Benja wants to see me next time."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 37195676}
 --- !u!114 &37195676
@@ -1299,6 +1306,7 @@ MonoBehaviour:
   Text: '"Oh sure, s-sorry for asking."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 44325557}
 --- !u!114 &44325557
@@ -1634,6 +1642,7 @@ MonoBehaviour:
   Text: '"Good morning, Coco."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 52986579}
 --- !u!1001 &55314129
@@ -2127,6 +2136,7 @@ MonoBehaviour:
   Text: '"Oh yeah, the old stories you told me when I was a little kid."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 61313546}
 --- !u!114 &61313546
@@ -2646,6 +2656,7 @@ MonoBehaviour:
   Text: '"Did you bring the herbs?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 83773929}
 --- !u!1 &88425926 stripped
@@ -3166,6 +3177,7 @@ MonoBehaviour:
   Text: '"Don''t worry, I won''t forget."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 125255984}
 --- !u!1001 &126159185
@@ -3367,6 +3379,7 @@ MonoBehaviour:
   Text: '"Do you have the next feather for me yet?"'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 137031173}
 --- !u!114 &137031173
@@ -5315,6 +5328,7 @@ MonoBehaviour:
   Text: '"If you don''t mind, could you please stop by Benja and get me some medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 153540357}
 --- !u!114 &153540359
@@ -6619,6 +6633,7 @@ MonoBehaviour:
   Text: ' "Yes, here it is."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 203593790}
 --- !u!114 &203593790
@@ -6684,6 +6699,81 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &204374615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 204374616}
+  - component: {fileID: 204374618}
+  - component: {fileID: 204374617}
+  m_Layer: 5
+  m_Name: Coco_Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &204374616
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204374615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1114909045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &204374617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204374615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 82cca88276124f0489b4625f0e192c8b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &204374618
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204374615}
+  m_CullTransparentMesh: 1
 --- !u!1001 &204612462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7305,8 +7395,84 @@ MonoBehaviour:
     my garden with it?"'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 247762665}
+--- !u!1 &254855278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254855279}
+  - component: {fileID: 254855281}
+  - component: {fileID: 254855280}
+  m_Layer: 5
+  m_Name: Aster_Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &254855279
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254855278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1114909045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &254855280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254855278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 165b3e1bf4e9bff4c956bcae20aafb92, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &254855281
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254855278}
+  m_CullTransparentMesh: 1
 --- !u!1001 &256943673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7722,6 +7888,7 @@ MonoBehaviour:
   Text: "\u201CWhat's wrong?\u201D"
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 296807498}
 --- !u!114 &296807500
@@ -7822,6 +7989,7 @@ MonoBehaviour:
     from a book."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 299056649}
 --- !u!114 &299056651
@@ -7987,6 +8155,7 @@ MonoBehaviour:
   Text: '"Yeah, you''re probably right."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 303540126}
 --- !u!114 &303540128
@@ -8191,6 +8360,7 @@ MonoBehaviour:
   Text: '"Aster, I found the last feather."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 312890037}
 --- !u!114 &312890037
@@ -8334,6 +8504,7 @@ MonoBehaviour:
   Text: '"Next time, think before you speak."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 312962140}
 --- !u!114 &312962142
@@ -8872,6 +9043,7 @@ MonoBehaviour:
   Text: '"I need to find something, something very important."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 332192587}
 --- !u!1 &338359295
@@ -8908,6 +9080,7 @@ MonoBehaviour:
   Text: '"Something tells me that I know you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 338359297}
 --- !u!114 &338359297
@@ -9039,6 +9212,7 @@ MonoBehaviour:
   Text: '"Oh, of course."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 340243691}
 --- !u!114 &340243693
@@ -9072,6 +9246,81 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &354388220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354388221}
+  - component: {fileID: 354388223}
+  - component: {fileID: 354388222}
+  m_Layer: 5
+  m_Name: Benja_Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &354388221
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354388220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1114909045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &354388222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354388220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fe7146d5203e3df4ba33a440a2ffe562, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &354388223
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354388220}
+  m_CullTransparentMesh: 1
 --- !u!1 &358772729
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,6 +9601,7 @@ MonoBehaviour:
   Text: '"My old Bones are not doing very well today, mabye a storm is coming."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 363473439}
 --- !u!1001 &375502293
@@ -9576,6 +9826,7 @@ MonoBehaviour:
   Text: '"Grandpa Gicht I did it."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 384302324}
 --- !u!114 &384302324
@@ -10014,6 +10265,7 @@ MonoBehaviour:
   Text: '"Hey, I don''t know why, but you seem familiar to me."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 408972266}
 --- !u!114 &408972268
@@ -10356,6 +10608,7 @@ MonoBehaviour:
   Text: '"There you are, finally."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 414690966}
 --- !u!114 &414690968
@@ -10487,6 +10740,7 @@ MonoBehaviour:
   Text: '"I''m not f-feeling particularly well, as y-you may have noticed."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 431362692}
 --- !u!1001 &440609992
@@ -10679,6 +10933,7 @@ MonoBehaviour:
   Text: '"There is only one problem, I won''t be able to water my garden like this."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 441574029}
 --- !u!1 &445570031
@@ -10746,6 +11001,7 @@ MonoBehaviour:
   Text: '"What? A feather?"'
   image: {fileID: 0}
   image_2: {fileID: 0}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 445570033}
 --- !u!1001 &451139371
@@ -10976,6 +11232,7 @@ MonoBehaviour:
   Text: '"You know that it is very important to me."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 453699054}
 --- !u!1001 &455284527
@@ -11154,6 +11411,7 @@ MonoBehaviour:
   Text: '"Alright, I''ll bring them to you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 458201920}
 --- !u!114 &458201922
@@ -11568,6 +11826,7 @@ MonoBehaviour:
   Text: '"Given how I look, I would only attract attention, and I can''t risk that."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 463981421}
 --- !u!114 &463981421
@@ -11749,6 +12008,7 @@ MonoBehaviour:
   Text: '"I will, don''t worry."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 475483552}
 --- !u!114 &475483554
@@ -18281,6 +18541,7 @@ MonoBehaviour:
   Text: '"And Coco, did you g- get the medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 527484367}
 --- !u!114 &527484367
@@ -18556,6 +18817,7 @@ MonoBehaviour:
   Text: ' "Yes, really, I''m fine. I just can''t go back."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 544435767}
 --- !u!114 &544435769
@@ -19044,6 +19306,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 579300929}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &582992649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582992650}
+  - component: {fileID: 582992652}
+  - component: {fileID: 582992651}
+  m_Layer: 5
+  m_Name: Opa Gicht_Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &582992650
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582992649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1114909045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &582992651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582992649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f5cdbb7f5abfaef4381487a4ff02b594, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &582992652
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582992649}
+  m_CullTransparentMesh: 1
 --- !u!1 &586555024
 GameObject:
   m_ObjectHideFlags: 0
@@ -24329,6 +24666,7 @@ MonoBehaviour:
   Text: '"As a token of gratitude, the statue that stands on the well was built."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 607524135}
 --- !u!114 &607524137
@@ -24866,6 +25204,7 @@ MonoBehaviour:
   Text: '"Thank you very much. Please water the garden behind my house with it."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 632572180}
 --- !u!1 &632632299
@@ -25366,6 +25705,7 @@ MonoBehaviour:
   Text: '"Alright, you need the feathers to get back home. I''ll take care of it."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 661063663}
 --- !u!114 &661063663
@@ -25466,6 +25806,7 @@ MonoBehaviour:
   Text: '"Hello Coco, c-can you help me?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 664076899}
   - {fileID: 664076901}
@@ -25721,6 +26062,7 @@ MonoBehaviour:
     bridge."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 666708293}
 --- !u!114 &666708295
@@ -26225,6 +26567,7 @@ MonoBehaviour:
   Text: The creature stares at Coco for a while.
   image: {fileID: 821598804}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 691304513}
 --- !u!114 &691304513
@@ -26348,6 +26691,7 @@ MonoBehaviour:
   Text: '"Here it is."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 696220287}
 --- !u!1 &696658319
@@ -26798,6 +27142,7 @@ MonoBehaviour:
   Text: '"In it, it said that dragons saved our lives, by giving us fertile land."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 712531100}
 --- !u!4 &715571976 stripped
@@ -27105,6 +27450,81 @@ Transform:
   - {fileID: 1607397110}
   m_Father: {fileID: 460276027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &725945480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725945481}
+  - component: {fileID: 725945483}
+  - component: {fileID: 725945482}
+  m_Layer: 5
+  m_Name: Alex_Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &725945481
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725945480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1114909045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &725945482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725945480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a90610ff9a0839645b4510c87a552188, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &725945483
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725945480}
+  m_CullTransparentMesh: 1
 --- !u!1 &726205943
 GameObject:
   m_ObjectHideFlags: 0
@@ -27171,6 +27591,7 @@ MonoBehaviour:
   Text: '"Not yet, I''m heading over to her place soon."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 726205945}
 --- !u!114 &726205947
@@ -27298,6 +27719,7 @@ MonoBehaviour:
   Text: '"Here it is."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 734192609}
 --- !u!114 &734192611
@@ -27497,6 +27919,7 @@ MonoBehaviour:
   Text: '"As soon as I have your medicine, I will bring it to you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 738523517}
 --- !u!4 &739570447 stripped
@@ -27698,6 +28121,7 @@ MonoBehaviour:
   Text: ' "I''ll keep it. It looks really nice."'
   image: {fileID: 0}
   image_2: {fileID: 0}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 749747883}
 --- !u!1001 &751463389
@@ -28018,6 +28442,7 @@ MonoBehaviour:
   Text: '"That''s good. I just need one more."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 756155105}
 --- !u!114 &756155107
@@ -28269,6 +28694,7 @@ RectTransform:
   - {fileID: 1543653669}
   - {fileID: 1582202440}
   - {fileID: 2067045114}
+  - {fileID: 1114909045}
   m_Father: {fileID: 16983239}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -28342,6 +28768,7 @@ MonoBehaviour:
     come by later."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 761617248}
 --- !u!1 &770699303
@@ -28378,6 +28805,7 @@ MonoBehaviour:
   Text: '"What is it? Are you not feeling well?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 770699305}
 --- !u!114 &770699305
@@ -28902,6 +29330,7 @@ MonoBehaviour:
   Text: '"Can I ask you a favor now?"'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 783132697}
   - {fileID: 783132696}
@@ -28939,6 +29368,7 @@ MonoBehaviour:
   Text: '"Can I ask you for a favor, Coco?"'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 788503814}
   - {fileID: 788503812}
@@ -29315,6 +29745,7 @@ MonoBehaviour:
   Text: '"You know, her shop is on the other side of the fountain, towards the mountain."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 810667776}
 --- !u!1 &817184868
@@ -29350,6 +29781,7 @@ MonoBehaviour:
   Text: '"Hello Grandpa Gicht, how have you been?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 817184870}
 --- !u!114 &817184870
@@ -29668,6 +30100,7 @@ MonoBehaviour:
   Text: '"Of course, Grandpa Gicht, you can ask me for anything."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 826776658}
 --- !u!114 &826776658
@@ -35652,6 +36085,7 @@ MonoBehaviour:
   Text: '"With their magical energy, they glow, so they should be easy to find."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 889904903}
 --- !u!1 &890653071
@@ -35982,6 +36416,7 @@ MonoBehaviour:
   Text: '"Don''t waste my valuable time."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 899269506}
 --- !u!114 &899269508
@@ -36049,6 +36484,7 @@ MonoBehaviour:
   Text: '"I''m sorry, but I don''t have time right now."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 900105803}
 --- !u!114 &900105803
@@ -36931,6 +37367,7 @@ MonoBehaviour:
   Text: '"I''m very grateful to you, my dear."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 951413318}
 --- !u!1001 &952162299
@@ -37373,6 +37810,7 @@ MonoBehaviour:
   Text: '"Good, hurry up."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 958979342}
 --- !u!114 &958979344
@@ -37661,6 +38099,7 @@ MonoBehaviour:
   Text: "\u201CThanks.\u201D"
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 966115618}
 --- !u!114 &966115620
@@ -37766,6 +38205,7 @@ MonoBehaviour:
   Text: '"Nothing, I just thought you would stay longer so we could do things together."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 975575151}
 --- !u!114 &975575153
@@ -43012,6 +43452,7 @@ MonoBehaviour:
   Text: '"I understand."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1006096577}
 --- !u!114 &1006096579
@@ -43112,6 +43553,7 @@ MonoBehaviour:
     a moment."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1011242330}
 --- !u!114 &1011242332
@@ -43179,6 +43621,7 @@ MonoBehaviour:
   Text: '"But sure, what''s going on?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1020159338}
 --- !u!114 &1020159338
@@ -43475,6 +43918,7 @@ MonoBehaviour:
   Text: '"Before that, everything here was covered in sand."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1035240348}
 --- !u!114 &1035240348
@@ -43975,6 +44419,7 @@ MonoBehaviour:
   Text: '"Have you already fetched water from the river behind the house?"'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1049474553}
 --- !u!1001 &1051537860
@@ -44106,6 +44551,7 @@ MonoBehaviour:
   Text: '"Can I ask for your help now?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1060726736}
   - {fileID: 1060726735}
@@ -44787,6 +45233,7 @@ MonoBehaviour:
   Text: '"Not yet, I''m still searching."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1104186880}
 --- !u!114 &1104186880
@@ -45252,6 +45699,55 @@ Transform:
   - {fileID: 726205944}
   m_Father: {fileID: 1520660830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1114909044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114909045}
+  - component: {fileID: 1114909046}
+  m_Layer: 5
+  m_Name: Namensschilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1114909045
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114909044}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 725945481}
+  - {fileID: 582992650}
+  - {fileID: 204374616}
+  - {fileID: 354388221}
+  - {fileID: 254855279}
+  m_Father: {fileID: 760687037}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1114909046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114909044}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1125541631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45669,6 +46165,7 @@ MonoBehaviour:
   Text: '"Have you already fetched water from the river behind the house?"'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1158699269}
 --- !u!1 &1160433016
@@ -45743,6 +46240,7 @@ MonoBehaviour:
   Text: '"I- I should go to her?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1168295938}
 --- !u!114 &1168295938
@@ -46013,6 +46511,7 @@ MonoBehaviour:
   Text: '"Yes, we will. Here''s your feather."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1174594950}
 --- !u!114 &1174594952
@@ -46595,8 +47094,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: ' "Yes, this is the type of feathers I''m looking for."'
-  image: {fileID: 2042274979}
+  image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1187643250}
 --- !u!114 &1187643252
@@ -47488,6 +47988,7 @@ MonoBehaviour:
   Text: '"Oh, Coco, you''re back."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1222007511}
 --- !u!114 &1222007511
@@ -47618,6 +48119,7 @@ MonoBehaviour:
   Text: '"If yes, did he say anything about me?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1225276719}
 --- !u!1 &1226377311
@@ -47686,6 +48188,7 @@ MonoBehaviour:
   Text: '"Alex send me he told me that he need some medicin."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1226377313}
 --- !u!114 &1226377315
@@ -48508,6 +49011,7 @@ MonoBehaviour:
   Text: '"I''ll make your favorite meal tonight, so come by."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1249289183}
 --- !u!1 &1250018233
@@ -48544,6 +49048,7 @@ MonoBehaviour:
   Text: '"What? How? And you''re sure you''re not hurt?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1250018235}
 --- !u!114 &1250018235
@@ -48698,6 +49203,7 @@ MonoBehaviour:
   Text: '"Would you mind helping me find the remaining feathers?"      '
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1250769586}
 --- !u!1 &1253918345
@@ -49081,6 +49587,7 @@ MonoBehaviour:
   Text: Coco discovers a creature and moves closer.
   image: {fileID: 821598804}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1258768989}
 --- !u!114 &1258768989
@@ -49180,6 +49687,7 @@ MonoBehaviour:
   Text: '"I think I know why you seem so familiar to me now."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1262835079}
 --- !u!1 &1264113653
@@ -49216,6 +49724,7 @@ MonoBehaviour:
     such things, I wanted to give it to you."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1264113655}
 --- !u!114 &1264113655
@@ -49450,6 +49959,7 @@ MonoBehaviour:
   Text: '"What is it? Do you have the herbs already?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1272725784}
 --- !u!114 &1272725786
@@ -52337,6 +52847,7 @@ MonoBehaviour:
   Text: '"Yes, nothing is dearer to you than your garden."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1315059253}
 --- !u!1 &1315704004
@@ -52405,6 +52916,7 @@ MonoBehaviour:
   Text: '"No, not yet."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1315704006}
 --- !u!114 &1315704008
@@ -58196,6 +58708,7 @@ MonoBehaviour:
   Text: '"Never mind, but I can''t help you."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1412104900}
 --- !u!114 &1412104902
@@ -58294,6 +58807,7 @@ MonoBehaviour:
   Text: '"Thank you very much, my little one"'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1412762433}
 --- !u!1 &1416314033
@@ -58330,6 +58844,7 @@ MonoBehaviour:
   Text: '"I''m fine, sorry for the bother."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1416314035}
 --- !u!114 &1416314035
@@ -58914,6 +59429,7 @@ MonoBehaviour:
   Text: '"Promise. We''ll look at the stars together one night."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1433817164}
 --- !u!114 &1433817166
@@ -59146,6 +59662,7 @@ MonoBehaviour:
   Text: '"I can''t tell you why, but please believe me, it''s nothing bad."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1437923953}
 --- !u!114 &1437923953
@@ -59289,6 +59806,7 @@ MonoBehaviour:
   Text: ' "Sure, tell him he should show up here himself next time."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1444230863}
 --- !u!114 &1444230865
@@ -60069,6 +60587,7 @@ MonoBehaviour:
   Text: '"Your old bones have never disappointed us."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1473601985}
 --- !u!1 &1474766786
@@ -60105,6 +60624,7 @@ MonoBehaviour:
   Text: '"No, that can''t be. We''re meeting for the first time."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1474766788}
 --- !u!114 &1474766788
@@ -60203,6 +60723,7 @@ MonoBehaviour:
   Text: '"As you know, the dragons gifted us fertile land several hundred years ago."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1477524365}
 --- !u!114 &1477524365
@@ -60418,6 +60939,7 @@ MonoBehaviour:
   Text: '"Of course, I''ll do that for you. You rest a bit in the meantime."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1483963592}
 --- !u!4 &1483963594
@@ -60820,6 +61342,7 @@ MonoBehaviour:
   Text: '"When I fell from the sky, I lost something."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1499618617}
 --- !u!114 &1499618617
@@ -61115,6 +61638,7 @@ MonoBehaviour:
   Text: '"Feathers. I''ve lost feathers. I need them to fly."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1519072004}
 --- !u!114 &1519072006
@@ -61257,6 +61781,7 @@ MonoBehaviour:
   Text: '"Of course, Grandpa Gicht."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1524543396}
 --- !u!1001 &1527508464
@@ -61548,6 +62073,7 @@ MonoBehaviour:
   Text: '"Hello my little one."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1543307448}
 --- !u!1 &1543653668
@@ -61665,6 +62191,7 @@ MonoBehaviour:
     like you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1545653663}
 --- !u!1001 &1546634310
@@ -61904,6 +62431,7 @@ MonoBehaviour:
   Text: '"So, fetch them for me and I''ll prepare the medicine."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1552143607}
 --- !u!1 &1553236312
@@ -62078,6 +62606,7 @@ MonoBehaviour:
     open and is looking at her.
   image: {fileID: 821598804}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1555458409}
 --- !u!114 &1555458409
@@ -62178,6 +62707,7 @@ MonoBehaviour:
   Text: '"I''m sorry, but I really need to get back urgently."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1558455181}
 --- !u!114 &1558455183
@@ -62474,6 +63004,7 @@ MonoBehaviour:
   Text: '"Hey Coco, did you already talk to Benja about the medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1563567088}
 --- !u!114 &1563567090
@@ -62732,6 +63263,7 @@ MonoBehaviour:
   Text: '"Aster, I have more feathers for you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1573915470}
 --- !u!114 &1573915472
@@ -62986,6 +63518,7 @@ MonoBehaviour:
   Text: '"I''ll take it to Alex. Thank you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1593612408}
 --- !u!114 &1593612410
@@ -63053,6 +63586,7 @@ MonoBehaviour:
   Text: '"Thank you so much C-Coco."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1595128088}
 --- !u!114 &1595128088
@@ -63195,6 +63729,7 @@ MonoBehaviour:
   Text: '"Good morning, grandpa Gicht."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1601907517}
 --- !u!1 &1607397109
@@ -63313,6 +63848,7 @@ MonoBehaviour:
   Text: '"Did Alex receive the medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1607812063}
 --- !u!114 &1607812065
@@ -63533,6 +64069,7 @@ MonoBehaviour:
   Text: '"Do you need Something?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1618828147}
   - {fileID: 1618828146}
@@ -63971,6 +64508,7 @@ MonoBehaviour:
   Text: '"Earlier, I found this feather. I''d like to give it to you as a thank you."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1642306468}
 --- !u!114 &1642306470
@@ -64056,6 +64594,7 @@ MonoBehaviour:
   Text: '"Oh, it''s probably just your imagination."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1644316177}
 --- !u!114 &1644316179
@@ -69104,6 +69643,7 @@ MonoBehaviour:
   Text: '"But of course my dear, please don''t forget it."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1656658183}
 --- !u!1001 &1663380610
@@ -69250,6 +69790,7 @@ MonoBehaviour:
   Text: '"Yes, I am one of those dragons."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1663942054}
 --- !u!114 &1663942056
@@ -74454,6 +74995,7 @@ MonoBehaviour:
   Text: ' "I''m missing a few herbs and don''t have the time to get them."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1681730399}
 --- !u!1 &1687122256
@@ -74490,6 +75032,7 @@ MonoBehaviour:
   Text: '"Why is that?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1687122258}
 --- !u!114 &1687122258
@@ -74911,6 +75454,7 @@ MonoBehaviour:
   Text: '"Of course after me."'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1701352886}
 --- !u!114 &1701352886
@@ -75457,6 +76001,7 @@ MonoBehaviour:
   Text: '"What exactly are you doing again with the vegetables from your garden?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1729746261}
 --- !u!114 &1729746261
@@ -76286,6 +76831,7 @@ MonoBehaviour:
     and be covered in sand again."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1765942675}
 --- !u!1 &1766383757
@@ -76428,6 +76974,7 @@ MonoBehaviour:
   Text: '"Alex send you?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1768341143}
 --- !u!114 &1768341145
@@ -76526,6 +77073,7 @@ MonoBehaviour:
   Text: '"I''m glad you didn''t forget."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1768794304}
 --- !u!4 &1769576341 stripped
@@ -76679,6 +77227,7 @@ MonoBehaviour:
     all, you helped me."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1778919105}
 --- !u!114 &1778919107
@@ -77051,6 +77600,7 @@ MonoBehaviour:
   Text: '"Sure, my little one, the watering can is behind the house."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1814682823}
 --- !u!1001 &1814821628
@@ -83913,6 +84463,7 @@ MonoBehaviour:
     the dragons in gratitude."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 1878070509}
 --- !u!114 &1878070509
@@ -85051,6 +85602,7 @@ MonoBehaviour:
     it."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1911502719}
 --- !u!114 &1911502721
@@ -85323,6 +85875,7 @@ MonoBehaviour:
   Text: '"Grandpa Gicht, could you remind me where the watering can is?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 632632299}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1930263281}
 --- !u!1 &1930610486
@@ -85644,6 +86197,7 @@ MonoBehaviour:
   Text: '"Wait, I found a glowing feather earlier."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1941651215}
 --- !u!114 &1941651217
@@ -86121,6 +86675,7 @@ MonoBehaviour:
   Text: ...
   image: {fileID: 821598804}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1969872679}
 --- !u!1 &1975628967
@@ -86188,6 +86743,7 @@ MonoBehaviour:
   Text: '"Oh, I have something else for you that I found earlier."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1975628969}
 --- !u!1 &1978636634
@@ -86256,6 +86812,7 @@ MonoBehaviour:
   Text: "\u201CWhat's up?\u201D"
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1978636636}
 --- !u!114 &1978636638
@@ -86949,6 +87506,7 @@ MonoBehaviour:
   Text: '"Thanks, Alex."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1994467086}
 --- !u!114 &1994467086
@@ -87108,6 +87666,7 @@ MonoBehaviour:
   Text: '"Why did he send you? He could have come here himself."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 1999835327}
 --- !u!1 &2000177169
@@ -90410,6 +90969,7 @@ MonoBehaviour:
   Text: ...
   image: {fileID: 821598804}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 2040510569}
 --- !u!1 &2040976101
@@ -90446,6 +91006,7 @@ MonoBehaviour:
   Text: '"Of course, my dear."'
   image: {fileID: 821598804}
   image_2: {fileID: 589650513}
+  image_3: {fileID: 582992649}
   Options:
   - {fileID: 2040976103}
   - {fileID: 2040976105}
@@ -90759,6 +91320,7 @@ MonoBehaviour:
   Text: '"Oh, before I forget, Benja said you should come see her yourself next time."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 2048135958}
 --- !u!114 &2048135958
@@ -91018,6 +91580,7 @@ MonoBehaviour:
     sky."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 2054745318}
 --- !u!114 &2054745320
@@ -91355,6 +91918,7 @@ MonoBehaviour:
   Text: '"Are you clear about what you want, or are you just wasting my time again?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 2095772179}
   - {fileID: 2095772178}
@@ -91489,6 +92053,7 @@ MonoBehaviour:
   Text: '"Promise?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 2097378560}
 --- !u!114 &2097378562
@@ -92222,6 +92787,7 @@ MonoBehaviour:
   Text: '"Thank you."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 2129423876}
 --- !u!114 &2129423878
@@ -92410,6 +92976,7 @@ MonoBehaviour:
   Text: '"Nothing, I just wanted to look around."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
+  image_3: {fileID: 0}
   Options:
   - {fileID: 2130369057}
 --- !u!114 &2130369059
@@ -92550,6 +93117,7 @@ MonoBehaviour:
   Text: '"What do you mean by ''fell from the sky''?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 2142771920}
 --- !u!114 &2142771920
