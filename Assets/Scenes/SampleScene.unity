@@ -337,7 +337,7 @@ MonoBehaviour:
   Text: '"Yes, here they are."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 10913046}
 --- !u!114 &10913048
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   Text: '"What do I do? Benja wants to see me next time."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 37195676}
 --- !u!114 &37195676
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   Text: '"Oh sure, s-sorry for asking."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 44325557}
 --- !u!114 &44325557
@@ -2656,7 +2656,7 @@ MonoBehaviour:
   Text: '"Did you bring the herbs?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 83773929}
 --- !u!1 &88425926 stripped
@@ -5328,7 +5328,7 @@ MonoBehaviour:
   Text: '"If you don''t mind, could you please stop by Benja and get me some medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 153540357}
 --- !u!114 &153540359
@@ -6189,7 +6189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14400001, y: 0.3417778}
   m_AnchorMax: {x: 0.298, y: 0.39874074}
-  m_AnchoredPosition: {x: 0.7519531, y: -1}
+  m_AnchoredPosition: {x: 0.7518921, y: -1}
   m_SizeDelta: {x: 0.3939991, y: -0.33529997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196377932
@@ -6449,15 +6449,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45778ea7b51c90b499896005bd8e3c84, type: 2}
+  m_sharedMaterial: {fileID: -3283456820970619200, guid: 45778ea7b51c90b499896005bd8e3c84,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4290824942
+  m_fontColor: {r: 0.93333334, g: 0.7921569, b: 0.7529412, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6474,8 +6475,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 29
+  m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6633,7 +6634,7 @@ MonoBehaviour:
   Text: ' "Yes, here it is."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 203593790}
 --- !u!114 &203593790
@@ -7888,7 +7889,7 @@ MonoBehaviour:
   Text: "\u201CWhat's wrong?\u201D"
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 296807498}
 --- !u!114 &296807500
@@ -7989,7 +7990,7 @@ MonoBehaviour:
     from a book."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 299056649}
 --- !u!114 &299056651
@@ -8360,7 +8361,7 @@ MonoBehaviour:
   Text: '"Aster, I found the last feather."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 312890037}
 --- !u!114 &312890037
@@ -8504,7 +8505,7 @@ MonoBehaviour:
   Text: '"Next time, think before you speak."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 312962140}
 --- !u!114 &312962142
@@ -9212,7 +9213,7 @@ MonoBehaviour:
   Text: '"Oh, of course."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 340243691}
 --- !u!114 &340243693
@@ -9897,8 +9898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 651.02, y: -34.780502}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: 1236.9904, y: -62.759705}
+  m_SizeDelta: {x: 208.758, y: 86.898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386071718
 MonoBehaviour:
@@ -9923,9 +9924,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.6580189, g: 0.8773585, b: 0.74514025, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -9976,8 +9977,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a862c1fd99450454898e2e541eb970c2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10608,7 +10609,7 @@ MonoBehaviour:
   Text: '"There you are, finally."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 414690966}
 --- !u!114 &414690968
@@ -10740,7 +10741,7 @@ MonoBehaviour:
   Text: '"I''m not f-feeling particularly well, as y-you may have noticed."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 431362692}
 --- !u!1001 &440609992
@@ -11411,7 +11412,7 @@ MonoBehaviour:
   Text: '"Alright, I''ll bring them to you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 458201920}
 --- !u!114 &458201922
@@ -12008,7 +12009,7 @@ MonoBehaviour:
   Text: '"I will, don''t worry."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 475483552}
 --- !u!114 &475483554
@@ -18541,7 +18542,7 @@ MonoBehaviour:
   Text: '"And Coco, did you g- get the medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 527484367}
 --- !u!114 &527484367
@@ -19481,7 +19482,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589650515
 MonoBehaviour:
@@ -24429,7 +24430,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600782442
 MonoBehaviour:
@@ -24666,7 +24667,7 @@ MonoBehaviour:
   Text: '"As a token of gratitude, the statue that stands on the well was built."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 607524135}
 --- !u!114 &607524137
@@ -25242,7 +25243,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &632632301
 MonoBehaviour:
@@ -25451,7 +25452,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &636368723
 MonoBehaviour:
@@ -25806,7 +25807,7 @@ MonoBehaviour:
   Text: '"Hello Coco, c-can you help me?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 664076899}
   - {fileID: 664076901}
@@ -26062,7 +26063,7 @@ MonoBehaviour:
     bridge."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 666708293}
 --- !u!114 &666708295
@@ -26728,7 +26729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -612.61694, y: -15.554871}
+  m_AnchoredPosition: {x: -612.61694, y: -15.554932}
   m_SizeDelta: {x: -1421.2296, y: -281.44452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696658321
@@ -27142,7 +27143,7 @@ MonoBehaviour:
   Text: '"In it, it said that dragons saved our lives, by giving us fertile land."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 712531100}
 --- !u!4 &715571976 stripped
@@ -27591,7 +27592,7 @@ MonoBehaviour:
   Text: '"Not yet, I''m heading over to her place soon."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 726205945}
 --- !u!114 &726205947
@@ -27719,7 +27720,7 @@ MonoBehaviour:
   Text: '"Here it is."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 734192609}
 --- !u!114 &734192611
@@ -27919,7 +27920,7 @@ MonoBehaviour:
   Text: '"As soon as I have your medicine, I will bring it to you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 738523517}
 --- !u!4 &739570447 stripped
@@ -28511,7 +28512,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &757716663
 MonoBehaviour:
@@ -28690,11 +28691,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1245898152}
-  - {fileID: 1168313619}
   - {fileID: 1543653669}
   - {fileID: 1582202440}
-  - {fileID: 2067045114}
   - {fileID: 1114909045}
+  - {fileID: 2067045114}
   m_Father: {fileID: 16983239}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -29640,7 +29640,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807838964
 MonoBehaviour:
@@ -29745,7 +29745,7 @@ MonoBehaviour:
   Text: '"You know, her shop is on the other side of the fountain, towards the mountain."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 810667776}
 --- !u!1 &817184868
@@ -29850,7 +29850,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.30100003, y: 0.135}
   m_AnchorMax: {x: 0.60800004, y: 0.7261111}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000061035, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820413559
@@ -36120,8 +36120,8 @@ RectTransform:
   - {fileID: 757716662}
   m_Father: {fileID: 1543653669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -36416,7 +36416,7 @@ MonoBehaviour:
   Text: '"Don''t waste my valuable time."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 899269506}
 --- !u!114 &899269508
@@ -36484,7 +36484,7 @@ MonoBehaviour:
   Text: '"I''m sorry, but I don''t have time right now."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 900105803}
 --- !u!114 &900105803
@@ -37810,7 +37810,7 @@ MonoBehaviour:
   Text: '"Good, hurry up."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 958979342}
 --- !u!114 &958979344
@@ -38099,7 +38099,7 @@ MonoBehaviour:
   Text: "\u201CThanks.\u201D"
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 966115618}
 --- !u!114 &966115620
@@ -38205,7 +38205,7 @@ MonoBehaviour:
   Text: '"Nothing, I just thought you would stay longer so we could do things together."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 975575151}
 --- !u!114 &975575153
@@ -43452,7 +43452,7 @@ MonoBehaviour:
   Text: '"I understand."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1006096577}
 --- !u!114 &1006096579
@@ -43553,7 +43553,7 @@ MonoBehaviour:
     a moment."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1011242330}
 --- !u!114 &1011242332
@@ -43621,7 +43621,7 @@ MonoBehaviour:
   Text: '"But sure, what''s going on?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1020159338}
 --- !u!114 &1020159338
@@ -44257,8 +44257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 433.33002, y: -34.780502}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: 965.2711, y: -62.759705}
+  m_SizeDelta: {x: 219.3004, y: 84.2624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046215340
 MonoBehaviour:
@@ -44282,10 +44282,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.65882355, g: 0.8784314, b: 0.74509805, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -44336,8 +44336,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a862c1fd99450454898e2e541eb970c2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -44551,7 +44551,7 @@ MonoBehaviour:
   Text: '"Can I ask for your help now?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 1060726736}
   - {fileID: 1060726735}
@@ -45403,7 +45403,6 @@ Transform:
   - {fileID: 510392232}
   - {fileID: 719113699}
   - {fileID: 1801195753}
-  - {fileID: 2097423501}
   - {fileID: 578735481}
   - {fileID: 835588593}
   - {fileID: 161742258}
@@ -45458,10 +45457,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1582202440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -68.053955, y: -322.82315}
-  m_SizeDelta: {x: -1068.2639, y: -878.4333}
+  m_AnchorMin: {x: 0.23947917, y: 0.07140741}
+  m_AnchorMax: {x: 0.7495625, y: 0.33133337}
+  m_AnchoredPosition: {x: -0.5654907, y: -0.16778564}
+  m_SizeDelta: {x: -183.679, y: -89.8983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107960749
 MonoBehaviour:
@@ -45547,7 +45546,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.6435547, y: 2.2200623, z: 0.22631836, w: -1.7332382}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -46240,7 +46239,7 @@ MonoBehaviour:
   Text: '"I- I should go to her?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 1168295938}
 --- !u!114 &1168295938
@@ -46330,37 +46329,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &1168313618
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1168313619}
-  m_Layer: 0
-  m_Name: Textbox Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1168313619
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168313618}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 760687037}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168566660
 GameObject:
   m_ObjectHideFlags: 0
@@ -46511,7 +46479,7 @@ MonoBehaviour:
   Text: '"Yes, we will. Here''s your feather."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1174594950}
 --- !u!114 &1174594952
@@ -46580,7 +46548,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175575898
 MonoBehaviour:
@@ -47988,7 +47956,7 @@ MonoBehaviour:
   Text: '"Oh, Coco, you''re back."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 1222007511}
 --- !u!114 &1222007511
@@ -48119,7 +48087,7 @@ MonoBehaviour:
   Text: '"If yes, did he say anything about me?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1225276719}
 --- !u!1 &1226377311
@@ -48188,7 +48156,7 @@ MonoBehaviour:
   Text: '"Alex send me he told me that he need some medicin."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1226377313}
 --- !u!114 &1226377315
@@ -49687,7 +49655,7 @@ MonoBehaviour:
   Text: '"I think I know why you seem so familiar to me now."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1262835079}
 --- !u!1 &1264113653
@@ -49724,7 +49692,7 @@ MonoBehaviour:
     such things, I wanted to give it to you."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 1264113655}
 --- !u!114 &1264113655
@@ -49959,7 +49927,7 @@ MonoBehaviour:
   Text: '"What is it? Do you have the herbs already?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1272725784}
 --- !u!114 &1272725786
@@ -52916,7 +52884,7 @@ MonoBehaviour:
   Text: '"No, not yet."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1315704006}
 --- !u!114 &1315704008
@@ -58708,7 +58676,7 @@ MonoBehaviour:
   Text: '"Never mind, but I can''t help you."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1412104900}
 --- !u!114 &1412104902
@@ -58844,7 +58812,7 @@ MonoBehaviour:
   Text: '"I''m fine, sorry for the bother."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1416314035}
 --- !u!114 &1416314035
@@ -59429,7 +59397,7 @@ MonoBehaviour:
   Text: '"Promise. We''ll look at the stars together one night."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1433817164}
 --- !u!114 &1433817166
@@ -59806,7 +59774,7 @@ MonoBehaviour:
   Text: ' "Sure, tell him he should show up here himself next time."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1444230863}
 --- !u!114 &1444230865
@@ -62191,7 +62159,7 @@ MonoBehaviour:
     like you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1545653663}
 --- !u!1001 &1546634310
@@ -62431,7 +62399,7 @@ MonoBehaviour:
   Text: '"So, fetch them for me and I''ll prepare the medicine."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1552143607}
 --- !u!1 &1553236312
@@ -62707,7 +62675,7 @@ MonoBehaviour:
   Text: '"I''m sorry, but I really need to get back urgently."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1558455181}
 --- !u!114 &1558455183
@@ -63004,7 +62972,7 @@ MonoBehaviour:
   Text: '"Hey Coco, did you already talk to Benja about the medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 1563567088}
 --- !u!114 &1563567090
@@ -63518,7 +63486,7 @@ MonoBehaviour:
   Text: '"I''ll take it to Alex. Thank you."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1593612408}
 --- !u!114 &1593612410
@@ -63586,7 +63554,7 @@ MonoBehaviour:
   Text: '"Thank you so much C-Coco."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 1595128088}
 --- !u!114 &1595128088
@@ -63848,7 +63816,7 @@ MonoBehaviour:
   Text: '"Did Alex receive the medicine?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1607812063}
 --- !u!114 &1607812065
@@ -64069,7 +64037,7 @@ MonoBehaviour:
   Text: '"Do you need Something?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1618828147}
   - {fileID: 1618828146}
@@ -69790,7 +69758,7 @@ MonoBehaviour:
   Text: '"Yes, I am one of those dragons."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1663942054}
 --- !u!114 &1663942056
@@ -74842,8 +74810,8 @@ RectTransform:
   - {fileID: 2014666166}
   m_Father: {fileID: 1543653669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -74995,7 +74963,7 @@ MonoBehaviour:
   Text: ' "I''m missing a few herbs and don''t have the time to get them."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1681730399}
 --- !u!1 &1687122256
@@ -76831,7 +76799,7 @@ MonoBehaviour:
     and be covered in sand again."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1765942675}
 --- !u!1 &1766383757
@@ -76974,7 +76942,7 @@ MonoBehaviour:
   Text: '"Alex send you?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1768341143}
 --- !u!114 &1768341145
@@ -77227,7 +77195,7 @@ MonoBehaviour:
     all, you helped me."'
   image: {fileID: 821598804}
   image_2: {fileID: 807838962}
-  image_3: {fileID: 0}
+  image_3: {fileID: 254855278}
   Options:
   - {fileID: 1778919105}
 --- !u!114 &1778919107
@@ -77884,15 +77852,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45778ea7b51c90b499896005bd8e3c84, type: 2}
+  m_sharedMaterial: {fileID: -3283456820970619200, guid: 45778ea7b51c90b499896005bd8e3c84,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4290824942
+  m_fontColor: {r: 0.93333334, g: 0.7921569, b: 0.7529412, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -77909,8 +77878,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 29
+  m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -77995,8 +77964,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 215.64001, y: -34.780502}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: 688.28076, y: -62.759705}
+  m_SizeDelta: {x: 219.3003, y: 85.5802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1826008694
 MonoBehaviour:
@@ -78022,8 +77991,8 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.65882355, g: 0.8784314, b: 0.74509805, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -78074,8 +78043,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a862c1fd99450454898e2e541eb970c2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -83752,7 +83721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.3818333, y: 0.6261111}
   m_AnchorMax: {x: 0.52735424, y: 0.7004815}
-  m_AnchoredPosition: {x: -0.3600006, y: 1.8764648}
+  m_AnchoredPosition: {x: -0.35998535, y: 1.8764648}
   m_SizeDelta: {x: -2.337799, y: -1.4158936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865315374
@@ -84001,7 +83970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14400001, y: 0.47300002}
   m_AnchorMax: {x: 0.298, y: 0.527}
-  m_AnchoredPosition: {x: 0.95202637, y: 0.0000076293945}
+  m_AnchoredPosition: {x: 0.95196533, y: 0.0000076293945}
   m_SizeDelta: {x: -1.2059994, y: 3.6647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875517880
@@ -85268,7 +85237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4237709, y: 0.2312963}
   m_AnchorMax: {x: 0.58400005, y: 0.30200002}
-  m_AnchoredPosition: {x: -1.1299591, y: 0.94104004}
+  m_AnchoredPosition: {x: -1.1299438, y: 0.94104004}
   m_SizeDelta: {x: -0.07400513, y: -2.1170006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900399176
@@ -85602,7 +85571,7 @@ MonoBehaviour:
     it."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1911502719}
 --- !u!114 &1911502721
@@ -85910,8 +85879,8 @@ RectTransform:
   - {fileID: 632632300}
   m_Father: {fileID: 1543653669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -86743,7 +86712,7 @@ MonoBehaviour:
   Text: '"Oh, I have something else for you that I found earlier."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1975628969}
 --- !u!1 &1978636634
@@ -86812,7 +86781,7 @@ MonoBehaviour:
   Text: "\u201CWhat's up?\u201D"
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1978636636}
 --- !u!114 &1978636638
@@ -87506,7 +87475,7 @@ MonoBehaviour:
   Text: '"Thanks, Alex."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 1994467086}
 --- !u!114 &1994467086
@@ -87666,7 +87635,7 @@ MonoBehaviour:
   Text: '"Why did he send you? He could have come here himself."'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 1999835327}
 --- !u!1 &2000177169
@@ -87803,7 +87772,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014666167
 MonoBehaviour:
@@ -91320,7 +91289,7 @@ MonoBehaviour:
   Text: '"Oh, before I forget, Benja said you should come see her yourself next time."'
   image: {fileID: 2042274979}
   image_2: {fileID: 1175575896}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 2048135958}
 --- !u!114 &2048135958
@@ -91791,10 +91760,10 @@ RectTransform:
   - {fileID: 386071717}
   m_Father: {fileID: 760687037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.27400002, y: 0.03377778}
-  m_AnchorMax: {x: 0.726, y: 0.093}
-  m_AnchoredPosition: {x: 0.0006713867, y: -1.0001831}
-  m_SizeDelta: {x: -1.1799927, y: 5.601013}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -477.2403}
+  m_SizeDelta: {x: 0, y: -954.4806}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2067045115
 MonoBehaviour:
@@ -91918,7 +91887,7 @@ MonoBehaviour:
   Text: '"Are you clear about what you want, or are you just wasting my time again?"'
   image: {fileID: 821598804}
   image_2: {fileID: 600782440}
-  image_3: {fileID: 0}
+  image_3: {fileID: 354388220}
   Options:
   - {fileID: 2095772179}
   - {fileID: 2095772178}
@@ -92053,7 +92022,7 @@ MonoBehaviour:
   Text: '"Promise?"'
   image: {fileID: 2042274979}
   image_2: {fileID: 2014666165}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 2097378560}
 --- !u!114 &2097378562
@@ -92087,95 +92056,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1001 &2097423500
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1107210841}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.6264992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.6265
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.6264992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -173.77725
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.626286
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -234.1936
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.6502102
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7597544
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: dede6043ac3009e4a9cd9267af11c703,
-        type: 3}
-      propertyPath: m_Name
-      value: "K\xFCrbis_gro\xDF (1)"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dede6043ac3009e4a9cd9267af11c703, type: 3}
---- !u!4 &2097423501 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dede6043ac3009e4a9cd9267af11c703,
-    type: 3}
-  m_PrefabInstance: {fileID: 2097423500}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2110262963
 GameObject:
   m_ObjectHideFlags: 0
@@ -92411,15 +92291,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45778ea7b51c90b499896005bd8e3c84, type: 2}
+  m_sharedMaterial: {fileID: -3283456820970619200, guid: 45778ea7b51c90b499896005bd8e3c84,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4290824942
+  m_fontColor: {r: 0.93333334, g: 0.7921569, b: 0.7529412, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92436,8 +92317,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 29
+  m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -92787,7 +92668,7 @@ MonoBehaviour:
   Text: '"Thank you."'
   image: {fileID: 821598804}
   image_2: {fileID: 636368721}
-  image_3: {fileID: 0}
+  image_3: {fileID: 725945480}
   Options:
   - {fileID: 2129423876}
 --- !u!114 &2129423878
@@ -92976,7 +92857,7 @@ MonoBehaviour:
   Text: '"Nothing, I just wanted to look around."'
   image: {fileID: 2042274979}
   image_2: {fileID: 757716661}
-  image_3: {fileID: 0}
+  image_3: {fileID: 204374615}
   Options:
   - {fileID: 2130369057}
 --- !u!114 &2130369059
@@ -93227,8 +93108,8 @@ RectTransform:
   - {fileID: 1175575897}
   m_Father: {fileID: 1543653669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
