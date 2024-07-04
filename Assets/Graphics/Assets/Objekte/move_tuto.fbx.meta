@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 330d79d29630a004e91497ec3e6b8b8e
+guid: 8215e68db3427304bbe873fbe8a993b5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wald_BG
-    second: {fileID: 2100000, guid: 06b43fc88a3862c4b8f698c2854fe1b1, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -95,7 +90,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 2
+    globalScale: 0.02
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
