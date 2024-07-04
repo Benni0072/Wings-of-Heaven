@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
     public float speed = 10f;
 
+    public float RotationSpeed = 0.2f;
+
     public float gravity = -9.8f; //m/s/s
 
     //______________________________________________________________________
@@ -70,7 +72,7 @@ public class PlayerController : MonoBehaviour
         if (Controller.Move(velocity * speed * Time.deltaTime) == CollisionFlags.Below)
             velocity.y = 0;
 
-
+//__________________________________________________________________________________________________________
         //holen einen Vector2 aus dem look
         Vector2 lookInput = look.ReadValue<Vector2>();
         Vector3 cameraRotation = Camera.rotation.eulerAngles;
@@ -78,12 +80,22 @@ public class PlayerController : MonoBehaviour
 
         cameraXRotation = Mathf.Clamp(cameraXRotation, 0, 90);
 
-        //cameraRotation.x = cameraXRotation;
+        cameraRotation.x = cameraXRotation;
 
         Camera.eulerAngles = cameraRotation;
+        
+        //per default wird Space.Selfe benutzt (also die lokale Achse)
+        Camera.Rotate(0, lookInput.x, 0, Space.World);
 
-        transform.Rotate(0, lookInput.x, 0);
+        if (moveInput != Vector2.zero)
+        {
+            Vector3 cameraForward = Camera.forward; //wert kopiert
+            cameraForward.y = 0;
+            cameraForward.Normalize();
 
+            transform.forward = Vector3.Lerp(transform.forward, cameraForward, RotationSpeed);
+        }
+//____________________________________________________________________________________________________________
 
         //radiant (rad)
 
@@ -116,7 +128,10 @@ public class PlayerController : MonoBehaviour
         if (pause.WasPressedThisFrame() && pauseMenu != null)
             pauseMenu.PauseGame();
         //_____________________________________________________________________________
+
+        Camera.position = transform.position;
     }
+
 
     private void OnTriggerEnter(Collider other)
     {
