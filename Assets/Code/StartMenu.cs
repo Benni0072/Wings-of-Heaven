@@ -31,6 +31,12 @@ public class StartMenu : MonoBehaviour
 
         SceneManager.LoadScene(1);
     }
+    public void EndGame()
+    {
+        MusicInstance.setParameterByNameWithLabel("Scene", "End-Cutscene");
+
+        SceneManager.LoadScene(2);
+    }
 
     public void MuteAudio(bool muted)
     {

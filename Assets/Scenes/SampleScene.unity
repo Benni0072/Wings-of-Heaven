@@ -41810,7 +41810,19 @@ MonoBehaviour:
   NextDialog: {fileID: 0}
   OnOptionSelected:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1905523325}
+        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
+        m_MethodName: EndGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &966115619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93513,6 +93525,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900399174}
   m_CullTransparentMesh: 1
+--- !u!1 &1905523324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905523326}
+  - component: {fileID: 1905523325}
+  m_Layer: 0
+  m_Name: LoadEndScean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1905523325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905523324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc1db6fbd20d52147a8052b1988cff98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicEvent:
+    Guid:
+      Data1: -1766018469
+      Data2: 1203996964
+      Data3: 62173578
+      Data4: -1557573535
+    Path: event:/Musik/OST_Wings-of-Heaven
+--- !u!4 &1905523326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905523324}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 764.4458, y: 604.1067, z: 13676.158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1911502716
 GameObject:
   m_ObjectHideFlags: 0
@@ -96006,7 +96069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2000177170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101717,9 +101780,6 @@ SceneRoots:
   - {fileID: 120766635}
   - {fileID: 1107210841}
   - {fileID: 868831413}
-  - {fileID: 2045124308}
-  - {fileID: 1785118603}
-  - {fileID: 824664365}
   - {fileID: 1923278549}
   - {fileID: 1503875290}
   - {fileID: 1168566661}
@@ -101735,3 +101795,7 @@ SceneRoots:
   - {fileID: 221342547}
   - {fileID: 1729579981}
   - {fileID: 1271138612}
+  - {fileID: 1785118603}
+  - {fileID: 2045124308}
+  - {fileID: 824664365}
+  - {fileID: 1905523326}
