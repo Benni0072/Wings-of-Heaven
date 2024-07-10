@@ -25,6 +25,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ToMenu()
     {
+      //MusicInstance.setParameterByNameWithLabel("Scene", "End-Cutscene");
         StartMenu.MusicInstance.setParameterByNameWithLabel("Scene", "Menu");
 
         SceneManager.LoadScene(0);
