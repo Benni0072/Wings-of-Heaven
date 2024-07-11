@@ -33824,6 +33824,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Br\xFCcke"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa8d99f9b67a43d42a658637e080f521,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33832,6 +33837,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 777802042}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa8d99f9b67a43d42a658637e080f521,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777802044}
   m_SourcePrefab: {fileID: 100100000, guid: fa8d99f9b67a43d42a658637e080f521, type: 3}
 --- !u!1 &777802041 stripped
 GameObject:
@@ -33867,6 +33876,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 777802040}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &777802044
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777802041}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.803057, y: 16.340544, z: 12.140706}
+  m_Center: {x: -1.007976, y: 8.161753, z: -0.000015657675}
 --- !u!1001 &779768840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72519,6 +72549,7 @@ MonoBehaviour:
   Controller: {fileID: 1553236315}
   Camera: {fileID: 30367109}
   Animator: {fileID: 1023152617}
+  Footsteps: {fileID: 2039274178}
   speed: 10
   RotationSpeed: 0.1
   gravity: -9.8
@@ -88145,7 +88176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1785118602
 Animator:
   serializedVersion: 5
@@ -103242,6 +103273,8 @@ MonoBehaviour:
       Data3: 258843833
       Data4: -2038359381
     Path: event:/SFX/Footsteps
+  DefaultSound: Forest
+  WoodSound: Wood
 --- !u!1 &2040510567
 GameObject:
   m_ObjectHideFlags: 0

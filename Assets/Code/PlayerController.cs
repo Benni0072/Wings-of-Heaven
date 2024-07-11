@@ -24,12 +24,14 @@ public class PlayerController : MonoBehaviour
     public CharacterController Controller;
     public Transform Camera;
     public Animator Animator;
+    public FootstepPlayer Footsteps;
 
     public float speed = 10f;
 
     public float RotationSpeed = 0.2f;
 
     public float gravity = -9.8f; //m/s/s
+
 
     //______________________________________________________________________
     public PauseMenu pauseMenu;
@@ -168,6 +170,11 @@ public class PlayerController : MonoBehaviour
             CurrentInteractable.Highlight();
         }
 
+        if (other.CompareTag(Footsteps.WoodSound))
+        {
+            Footsteps.FootstepInstance.setParameterByNameWithLabel("Untergründe", Footsteps.WoodSound);
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -184,6 +191,11 @@ public class PlayerController : MonoBehaviour
         {
             collectable.Unhighlight();
             CurrentCollectible = null;
+        }
+
+        if (other.CompareTag(Footsteps.WoodSound))
+        {
+            Footsteps.FootstepInstance.setParameterByNameWithLabel("Untergründe", Footsteps.DefaultSound);
         }
     }
 
