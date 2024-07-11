@@ -82,7 +82,7 @@ public class StartMenu : MonoBehaviour
         //RuntimeManager.GetBus("bus:/").setVolume(value);   //zwischen 0 und 1
 
         //VCA
-        //RuntimeManager.GetVCA("vca:/Master").setVolume(value);
+        RuntimeManager.GetVCA("vca:/Master").setVolume(value);
 
         PlayerPrefs.SetFloat("MasterVolume", value);
     }
@@ -90,21 +90,21 @@ public class StartMenu : MonoBehaviour
     public void MusicSliderChanged(float value)
     {
 
-        //RuntimeManager.GetVCA("vca:/Music").setVolume(value);
+        RuntimeManager.GetVCA("vca:/Music").setVolume(value);
 
         PlayerPrefs.SetFloat("MusicVolume", value);
     }
     public void AmbienceSliderChanged(float value)
     {
 
-        //RuntimeManager.GetVCA("vca:/Ambience").setVolume(value);
+        RuntimeManager.GetVCA("vca:/Ambience").setVolume(value);
 
         PlayerPrefs.SetFloat("AmbienceVolume", value);
     }
     public void SfxSliderChanged(float value)
     {
 
-        //RuntimeManager.GetVCA("vca:/SFX").setVolume(value);
+        RuntimeManager.GetVCA("vca:/SFX").setVolume(value);
 
         PlayerPrefs.SetFloat("SfxVolume", value);
     }
