@@ -6382,13 +6382,14 @@ GameObject:
   - component: {fileID: 160504466}
   - component: {fileID: 160504468}
   - component: {fileID: 160504467}
+  - component: {fileID: 160504469}
   m_Layer: 0
   m_Name: come back later
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &160504466
 Transform:
   m_ObjectHideFlags: 0
@@ -6439,6 +6440,37 @@ MonoBehaviour:
   image_3: {fileID: 204374615}
   Options:
   - {fileID: 160504467}
+--- !u!114 &160504469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160504465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1089243436
+      Data2: 1084544780
+      Data3: 570881673
+      Data4: -1330027016
+    Path: event:/Dialogue/Parasprache/Coco_Dialog/Coco_Zweifel
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &161447572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d282abb73bbde1e40b3008bad928f8bd,
@@ -53655,7 +53687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1150045793
 Transform:
   m_ObjectHideFlags: 0

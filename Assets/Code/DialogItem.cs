@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DialogItem : MonoBehaviour
 {
+    internal static DialogItem item;
     public string Text;
 
     public GameObject image;

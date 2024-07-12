@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEditor.Progress;
 
 
 public class DialogDisplay : MonoBehaviour
@@ -107,7 +108,8 @@ public class DialogDisplay : MonoBehaviour
 
         DialogOpen.Invoke(false);
 
-       // Emitter.EventInstance.setParameterByName("Frog", 1);
+        // Emitter.EventInstance.setParameterByName("Frog", 1);
+
     }
 
     public void ChooseOption(int index)
