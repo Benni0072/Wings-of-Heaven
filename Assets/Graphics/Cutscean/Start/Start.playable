@@ -22,10 +22,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 7.733333333333333
+    m_Start: 10.183333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 2646205297964995345}
-    m_Duration: 5
+    m_Duration: 4.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -6339630237818431496}
     m_EaseInDuration: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -360840135547572234}
-    m_Duration: 8
+    m_Duration: 11.166666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1798274306153581904}
     m_EaseInDuration: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
     m_Recordable: 0
-    m_PostExtrapolationMode: 1
+    m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
