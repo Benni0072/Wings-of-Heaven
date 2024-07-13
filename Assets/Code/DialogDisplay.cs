@@ -103,7 +103,7 @@ public class DialogDisplay : MonoBehaviour
         }
 
 
-
+        currentItem.gameObject.SetActive(false);
         Container.SetActive(false);
 
         DialogOpen.Invoke(false);
@@ -133,6 +133,7 @@ public class DialogDisplay : MonoBehaviour
             {
                 currentItem.image_3.SetActive(false);
             }
+            currentItem.gameObject.SetActive(false);
             StartDialog(option.NextDialog);
         }
         else

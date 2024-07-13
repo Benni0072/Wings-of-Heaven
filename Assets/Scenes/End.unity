@@ -1322,8 +1322,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 199, y: -1063.6472}
-  m_SizeDelta: {x: -1365.9745, y: -72.62219}
+  m_AnchoredPosition: {x: 199, y: -1346.432}
+  m_SizeDelta: {x: -1365.9745, y: 492.9474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974411247
 MonoBehaviour:
@@ -1362,14 +1362,17 @@ MonoBehaviour:
     Voices:
 
 
-    Coco/
-    Estella
+    Coco
+    / Estella
 
-    Aster/ Blue
+    Aster / Blue
 
-    Alex/ Lucas
+    Grandpa Gicht / Lucas
 
-    Benja/ Louise
+    Alex / Lucas
+
+    Benja
+    / Louise
 
 
 
@@ -1379,12 +1382,12 @@ MonoBehaviour:
 
 
 
-    Thanks
-    to everyone who
+    Thanks to everyone who
 
     supported me in creating
 
-    Wings of Heaven'
+    Wings
+    of Heaven'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45778ea7b51c90b499896005bd8e3c84, type: 2}
   m_sharedMaterial: {fileID: -3283456820970619200, guid: 45778ea7b51c90b499896005bd8e3c84,
