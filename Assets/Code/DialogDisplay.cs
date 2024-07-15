@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using static UnityEditor.Progress;
+
 
 
 public class DialogDisplay : MonoBehaviour
