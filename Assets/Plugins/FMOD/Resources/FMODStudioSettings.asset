@@ -337,6 +337,7 @@ MonoBehaviour:
   - Footsteps
   - Game State
   - Musik
+  - SFX
   - UI
   BanksToLoad: []
   LiveUpdatePort: 9264

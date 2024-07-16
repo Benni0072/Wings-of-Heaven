@@ -1145,74 +1145,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &37038421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 37038422}
-  - component: {fileID: 37038424}
-  - component: {fileID: 37038423}
-  m_Layer: 0
-  m_Name: why is it glowing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &37038422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37038421}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.02527, y: 123.41539, z: 115.55699}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2132209244}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &37038423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37038421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Continue
-  NextDialog: {fileID: 749747884}
-  OnOptionSelected:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &37038424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37038421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: '"Why is it glowing?"'
-  image: {fileID: 0}
-  image_2: {fileID: 0}
-  image_3: {fileID: 0}
-  Options:
-  - {fileID: 37038423}
 --- !u!1 &37195674
 GameObject:
   m_ObjectHideFlags: 0
@@ -15041,74 +14973,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &445570031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 445570032}
-  - component: {fileID: 445570034}
-  - component: {fileID: 445570033}
-  m_Layer: 0
-  m_Name: what a feather?
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &445570032
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445570031}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.02527, y: 123.41539, z: 115.55699}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2132209244}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &445570033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445570031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Continue
-  NextDialog: {fileID: 37038424}
-  OnOptionSelected:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &445570034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445570031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: '"What? A feather?"'
-  image: {fileID: 0}
-  image_2: {fileID: 0}
-  image_3: {fileID: 0}
-  Options:
-  - {fileID: 445570033}
 --- !u!1001 &446764709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21939,6 +21803,7 @@ GameObject:
   - component: {fileID: 499092843}
   - component: {fileID: 499092845}
   - component: {fileID: 499092844}
+  - component: {fileID: 499092846}
   m_Layer: 0
   m_Name: GameObject (4)
   m_TagString: Untagged
@@ -22026,6 +21891,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.743901, y: 44.289913, z: 36.21811}
   m_Center: {x: 0.9450492, y: 0.06522489, z: 0.75933427}
+--- !u!114 &499092846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499092842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1938935166
+      Data2: 1253653119
+      Data3: 230510754
+      Data4: -1240689742
+    Path: event:/SFX/magic
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &501600923
 GameObject:
   m_ObjectHideFlags: 0
@@ -24112,6 +24008,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 562021933}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &568867312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 656.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.603
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 547.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99808085
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.061924487
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.101
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 926727cba4049534b99f9578f34f0ef5,
+        type: 3}
+      propertyPath: m_Name
+      value: Anubis
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 926727cba4049534b99f9578f34f0ef5, type: 3}
 --- !u!1001 &569135205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30670,6 +30634,7 @@ GameObject:
   - component: {fileID: 628918333}
   - component: {fileID: 628918332}
   - component: {fileID: 628918331}
+  - component: {fileID: 628918335}
   m_Layer: 0
   m_Name: Garten collider trigger
   m_TagString: Untagged
@@ -30745,6 +30710,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 628918335}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   Animator: {fileID: 1023152617}
   NormalMaterial: {fileID: 0}
   HighlightMaterial: {fileID: 0}
@@ -30784,6 +30761,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -76.51, z: 0}
+--- !u!114 &628918335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628918330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -326060863
+      Data2: 1181251092
+      Data3: -2090607488
+      Data4: 689185848
+    Path: event:/SFX/watering
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &632572178
 GameObject:
   m_ObjectHideFlags: 0
@@ -34225,86 +34233,6 @@ Transform:
   - {fileID: 44325558}
   m_Father: {fileID: 1520660830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &749747881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 749747882}
-  - component: {fileID: 749747884}
-  - component: {fileID: 749747883}
-  m_Layer: 0
-  m_Name: will keep it
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &749747882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749747881}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.02527, y: 123.41539, z: 115.55699}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2132209244}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &749747883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749747881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299b99bd7d056d345adfc504af35447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: Continue
-  NextDialog: {fileID: 0}
-  OnOptionSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &749747884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749747881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6a97f437d69e644bf8037ed8001c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: ' "I''ll keep it. It looks really nice."'
-  image: {fileID: 0}
-  image_2: {fileID: 0}
-  image_3: {fileID: 0}
-  Options:
-  - {fileID: 749747883}
 --- !u!1001 &751463389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46928,6 +46856,7 @@ GameObject:
   - component: {fileID: 1003750794}
   - component: {fileID: 1003750796}
   - component: {fileID: 1003750795}
+  - component: {fileID: 1003750797}
   m_Layer: 0
   m_Name: GameObject (5)
   m_TagString: Untagged
@@ -47015,6 +46944,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.743901, y: 44.289913, z: 36.21811}
   m_Center: {x: 0.9450492, y: 0.06522489, z: 0.75933427}
+--- !u!114 &1003750797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003750793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1938935166
+      Data2: 1253653119
+      Data3: 230510754
+      Data4: -1240689742
+    Path: event:/SFX/magic
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1003758613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52539,6 +52499,7 @@ GameObject:
   - component: {fileID: 1028951454}
   - component: {fileID: 1028951456}
   - component: {fileID: 1028951455}
+  - component: {fileID: 1028951457}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -52614,6 +52575,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.743901, y: 44.289913, z: 36.21811}
   m_Center: {x: 0.9450492, y: 0.06522489, z: 0.75933427}
+--- !u!114 &1028951457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028951453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1938935166
+      Data2: 1253653119
+      Data3: 230510754
+      Data4: -1240689742
+    Path: event:/SFX/magic
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1032759899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d282abb73bbde1e40b3008bad928f8bd,
@@ -70076,7 +70068,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2132209244}
   - {fileID: 1028951454}
   - {fileID: 2000177173}
   - {fileID: 499092843}
@@ -109310,6 +109301,7 @@ GameObject:
   - component: {fileID: 2000177173}
   - component: {fileID: 2000177172}
   - component: {fileID: 2000177170}
+  - component: {fileID: 2000177174}
   m_Layer: 0
   m_Name: GameObject (3)
   m_TagString: Untagged
@@ -109397,6 +109389,37 @@ Transform:
   - {fileID: 1444831140}
   m_Father: {fileID: 1347251834}
   m_LocalEulerAnglesHint: {x: 0, y: -146.581, z: 88.562}
+--- !u!114 &2000177174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000177169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1938935166
+      Data2: 1253653119
+      Data3: 230510754
+      Data4: -1240689742
+    Path: event:/SFX/magic
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2014666165
 GameObject:
   m_ObjectHideFlags: 0
@@ -119988,40 +120011,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130420769}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2132209243
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2132209244}
-  m_Layer: 0
-  m_Name: Feder Dialog
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2132209244
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132209243}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 445570032}
-  - {fileID: 37038422}
-  - {fileID: 749747882}
-  m_Father: {fileID: 1347251834}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2136599472
 GameObject:
   m_ObjectHideFlags: 0
@@ -120335,3 +120324,4 @@ SceneRoots:
   - {fileID: 2045124308}
   - {fileID: 824664365}
   - {fileID: 1905523326}
+  - {fileID: 568867312}
