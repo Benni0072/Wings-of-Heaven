@@ -182,15 +182,15 @@ public class PlayerController : MonoBehaviour
         interactable inter = other.GetComponent<interactable>();
         if (inter != null)
         {
-            inter.Unhighlight();
             CurrentInteractable = null;
+            inter.Unhighlight();
         }
 
         collectible collectable = other.GetComponent<collectible>();
         if (collectable != null)
         {
-            collectable.Unhighlight();
             CurrentCollectible = null;
+            collectable.Unhighlight();
         }
 
         if (other.CompareTag(Footsteps.WoodSound))
