@@ -68,7 +68,7 @@ public class StartMenu : MonoBehaviour
     {
         MusicInstance.setParameterByNameWithLabel("Scene", "End-Cutscene");
 
-        SceneManager.LoadScene(2);
+        FindAnyObjectByType<LoadingManager>(FindObjectsInactive.Include).UnloadAndLoad(1, 2);
     }
 
     

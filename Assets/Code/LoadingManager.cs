@@ -38,7 +38,7 @@ public class LoadingManager : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3f);
         //entläd alle offenen Scenen
         //SceneManager.LoadScene(0);
 

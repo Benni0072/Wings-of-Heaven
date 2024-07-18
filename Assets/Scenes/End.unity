@@ -730,7 +730,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 906438857}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: EndCutscean, Assembly-CSharp
         m_MethodName: ToMenu
         m_Mode: 1
         m_Arguments:
@@ -820,13 +820,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 906438854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc6958d65ec55dd43a0fe3fb5ef33727, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e253051f175ed040ad824f1946e96b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseContainer: {fileID: 0}
-  PauseOpen:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &986421549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,10 +1642,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.35
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 36
   m_fontSizeMax: 57.7
   m_fontStyle: 0
