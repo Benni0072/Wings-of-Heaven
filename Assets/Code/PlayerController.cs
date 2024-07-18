@@ -123,8 +123,7 @@ public class PlayerController : MonoBehaviour
         if (interact.WasPressedThisFrame() && CurrentInteractable != null)
             CurrentInteractable.Interact();
 
-        if (interact.WasPressedThisFrame() && CurrentCollectible != null)
-            CurrentCollectible.Collect();
+
 
         //_____________________________________________________________________________
         if (pause.WasPressedThisFrame() && pauseMenu != null)
@@ -132,6 +131,12 @@ public class PlayerController : MonoBehaviour
         //_____________________________________________________________________________
 
         Camera.position = transform.position;
+
+        if (interact.WasPerformedThisFrame() && CurrentCollectible != null)
+        {
+            Animator.SetTrigger("collectable");
+            CurrentCollectible.Invoke("Collect", 0.5f);
+        }
     }
 
 

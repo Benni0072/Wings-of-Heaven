@@ -26,7 +26,6 @@ public class collectible : MonoBehaviour
     {
         OnCollected.Invoke();
 
-        Animator.SetTrigger("collect");
 
         Destroy(gameObject);
     }
