@@ -26,11 +26,16 @@ public class StartMenu : MonoBehaviour
 
     public Slider SfxSlider;
 
+    static bool hasLoadingScreen;
+
     //_____________________________________________________________________
 
     // Start is called before the first frame update
     void Start()
     {
+        if(!hasLoadingScreen)
+        SceneManager.LoadScene (3, LoadSceneMode.Additive);
+        hasLoadingScreen = true; 
 
         if (!MusicInstance.hasHandle())
         {
@@ -57,7 +62,7 @@ public class StartMenu : MonoBehaviour
     {
         MusicInstance.setParameterByNameWithLabel("Scene", "Level");
 
-        SceneManager.LoadScene(1);
+        FindAnyObjectByType<LoadingManager>(FindObjectsInactive.Include).UnloadAndLoad(0, 1);
     }
     public void EndGame()
     {

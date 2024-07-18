@@ -28,7 +28,10 @@ public class PauseMenu : MonoBehaviour
       //MusicInstance.setParameterByNameWithLabel("Scene", "End-Cutscene");
         StartMenu.MusicInstance.setParameterByNameWithLabel("Scene", "Menu");
 
-        SceneManager.LoadScene(0);
+
+        LoadingManager manager = FindObjectOfType<LoadingManager>(true);
+        manager.UnloadAndLoad(1, 0);
+
     }
 
     public void Continue()
@@ -41,7 +44,7 @@ public class PauseMenu : MonoBehaviour
     public void MuteAudio(bool muted)
     {
         RuntimeManager.MuteAllEvents(muted);
-    }
 
+    }
 
 }
