@@ -134,7 +134,7 @@ public class PlayerController : MonoBehaviour
 
         if (interact.WasPerformedThisFrame() && CurrentCollectible != null)
         {
-            Animator.SetTrigger("collectable");
+            Animator.SetTrigger("collect");
             CurrentCollectible.Invoke("Collect", 0.5f);
         }
     }
