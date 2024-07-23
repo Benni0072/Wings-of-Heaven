@@ -6,6 +6,7 @@ TagManager:
   tags:
   - collectable
   - Wood
+  - watering
   layers:
   - Default
   - TransparentFX

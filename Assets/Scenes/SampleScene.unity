@@ -22278,7 +22278,7 @@ GameObject:
   - component: {fileID: 499092846}
   m_Layer: 0
   m_Name: GameObject (4)
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31115,7 +31115,7 @@ GameObject:
   - component: {fileID: 628918335}
   m_Layer: 0
   m_Name: Garten collider trigger
-  m_TagString: Untagged
+  m_TagString: watering
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47650,7 +47650,7 @@ GameObject:
   - component: {fileID: 1003750797}
   m_Layer: 0
   m_Name: GameObject (5)
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53293,7 +53293,7 @@ GameObject:
   - component: {fileID: 1028951457}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78648,7 +78648,7 @@ GameObject:
   - component: {fileID: 1431769115}
   m_Layer: 0
   m_Name: "Gie\xDFkannen_collider"
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82739,6 +82739,20 @@ MonoBehaviour:
   pauseMenu: {fileID: 586555026}
   CurrentInteractable: {fileID: 0}
   CurrentCollectible: {fileID: 0}
+  Pick_Up:
+    Guid:
+      Data1: 2103334744
+      Data2: 1079744340
+      Data3: 1190550700
+      Data4: -1781493494
+    Path: event:/SFX/Pick_Up
+  watering:
+    Guid:
+      Data1: -980685422
+      Data2: 1106771847
+      Data3: 386477487
+      Data4: 1557241464
+    Path: event:/SFX/watering
 --- !u!143 &1553236315
 CharacterController:
   m_ObjectHideFlags: 0
@@ -110524,7 +110538,7 @@ GameObject:
   - component: {fileID: 1853469797}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112323,7 +112337,7 @@ GameObject:
   - component: {fileID: 1895635687}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: watering
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115632,7 +115646,7 @@ GameObject:
   - component: {fileID: 2000177174}
   m_Layer: 0
   m_Name: GameObject (3)
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

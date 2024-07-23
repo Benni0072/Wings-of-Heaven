@@ -1,3 +1,4 @@
+using FMODUnity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -40,6 +41,11 @@ public class PlayerController : MonoBehaviour
     public interactable CurrentInteractable;
     public collectible CurrentCollectible;
 
+    public EventReference Pick_Up;
+    public EventReference watering;
+
+
+    //___________________________________________
 
     // Start is called before the first frame update
     void Start()
@@ -135,6 +141,17 @@ public class PlayerController : MonoBehaviour
         if (interact.WasPerformedThisFrame() && CurrentCollectible != null)
         {
             Animator.SetTrigger("collect");
+
+            if (CurrentCollectible.CompareTag("collectable"))
+            {
+                RuntimeManager.PlayOneShot(Pick_Up);
+            }
+
+            if (CurrentCollectible.CompareTag("watering"))
+            {
+                RuntimeManager.PlayOneShot(watering);
+            }
+
             CurrentCollectible.Invoke("Collect", 0.5f);
         }
     }
